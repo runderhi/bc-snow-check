@@ -16,7 +16,7 @@
  <hr class="lower_separator">
  <div class="live_temperature__last_updated c78__conditions--v2">
  <span class="icon-weather-clock live_temperature__clock_icon" aria-hidden="true"></span>
- Updated: 0 hrs 25 min ago
+ Updated: 0 hrs 27 min ago
  </div>
  </div>
  <div class="col-xs-12 col-sm-6 col-lg-3 live_temperature__station_container">
@@ -37,12 +37,12 @@
  <span class="icon-weather-windy c78__conditions--v1 live_temperature__icon" aria-hidden="true"></span>
  <span class="c78__conditions--v1 uppercase">Winds: </span>
  <span class="live_temperature__us_only c78__conditions--v2"> 1 mph</span>
- <span class="live_temperature__international_only c78__conditions--v2">3 km/h</span>
+ <span class="live_temperature__international_only c78__conditions--v2">2 km/h</span>
  </div>
  <hr class="lower_separator">
  <div class="live_temperature__last_updated c78__conditions--v2">
  <span class="icon-weather-clock live_temperature__clock_icon" aria-hidden="true"></span>
- Updated: 0 hrs 25 min ago
+ Updated: 0 hrs 27 min ago
  </div>
  </div>
  <div class="col-xs-12 col-sm-6 col-lg-3 live_temperature__station_container">
@@ -63,12 +63,12 @@
  <span class="icon-weather-windy c78__conditions--v1 live_temperature__icon" aria-hidden="true"></span>
  <span class="c78__conditions--v1 uppercase">Winds: </span>
  <span class="live_temperature__us_only c78__conditions--v2"> 0 mph</span>
- <span class="live_temperature__international_only c78__conditions--v2">0 km/h</span>
+ <span class="live_temperature__international_only c78__conditions--v2">1 km/h</span>
  </div>
  <hr class="lower_separator">
  <div class="live_temperature__last_updated c78__conditions--v2">
  <span class="icon-weather-clock live_temperature__clock_icon" aria-hidden="true"></span>
- Updated: 0 hrs 25 min ago
+ Updated: 0 hrs 27 min ago
  </div>
  </div>
  <div class="col-xs-12 col-sm-6 col-lg-3 live_temperature__station_container">
@@ -76,8 +76,8 @@
  Whistler Village
  </div>
  <div class="c78__temp1--v1 live_temperature__temperature_display">
- <div class="live_temperature__us_only">42 &#176F</div>
- <div class="live_temperature__international_only">6 &#176C</div>
+ <div class="live_temperature__us_only">41 &#176F</div>
+ <div class="live_temperature__international_only">5 &#176C</div>
  </div>
  <div class="live_temperature__condition">
  <span class="icon-weather-elevation c78__conditions--v1 live_temperature__icon" aria-hidden="true"></span>
@@ -94,7 +94,7 @@
  <hr class="lower_separator">
  <div class="live_temperature__last_updated c78__conditions--v2">
  <span class="icon-weather-clock live_temperature__clock_icon" aria-hidden="true"></span>
- Updated: 0 hrs 25 min ago
+ Updated: 0 hrs 27 min ago
  </div>
  </div>
  </div>
