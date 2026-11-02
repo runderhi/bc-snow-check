@@ -198,19 +198,27 @@ def value_near(series, when, tol_hours=6):
 
 def station_summary(sid, meta, sd, sw, ta):
     s = sd.get(sid, [])
+    w = sw.get(sid, [])
     out = {"id": sid, "name": meta.get("name", sid), "elev": meta.get("elev"),
-           "dist_km": meta.get("dist_km"), "depth": None}
+           "dist_km": meta.get("dist_km"), "depth": None, "swe": None}
+    if w:
+        tw, swe = w[-1]
+        out.update({"swe": rnd(swe), "swe_d24": delta(swe, value_near(w, tw - timedelta(hours=24))),
+                    "swe_d7": delta(swe, value_near(w, tw - timedelta(days=7), tol_hours=12)),
+                    "time": tw.isoformat()})
+    if ta.get(sid):
+        out["temp"] = round(ta[sid][-1][1], 1)
+    latest = s[-1][0] if s else (w[-1][0] if w else None)
+    if latest:
+        out["time"] = latest.isoformat()
+        out["age_h"] = round((datetime.now(timezone.utc) - latest).total_seconds() / 3600, 1)
     if not s:
         return out
     t, depth = s[-1]
     out.update({
-        "time": t.isoformat(),
-        "age_h": round((datetime.now(timezone.utc) - t).total_seconds() / 3600, 1),
         "depth": round(max(depth, 0)),
         "d24": delta(depth, value_near(s, t - timedelta(hours=24))),
         "d7": delta(depth, value_near(s, t - timedelta(days=7), tol_hours=12)),
-        "swe": rnd(sw.get(sid, [])[-1][1]) if sw.get(sid) else None,
-        "temp": round(ta[sid][-1][1], 1) if ta.get(sid) else None,
         "daily": daily_series(s),
     })
     return out
@@ -240,9 +248,12 @@ def pick_stations(resort, locs, sd, cfg):
             meta["dist_km"] = round(km(resort["lat"], resort["lon"], meta["lat"], meta["lon"]))
         picked.append((sid, meta))
     cands = []
+    min_elev = cfg.get("min_station_elev_m", 0)
     for sid, m in locs.items():
         if sid in dict(picked) or not m.get("active") or not sd.get(sid):
             continue
+        if m.get("elev") is not None and m["elev"] < min_elev:
+            continue  # valley stations say little about ski-hill snow
         d = km(resort["lat"], resort["lon"], m["lat"], m["lon"])
         if d <= cfg["station_search_radius_km"]:
             cands.append((d, sid, m))
@@ -347,13 +358,19 @@ def avcan_for(resort, areas, products):
 
 
 # ---------------------------------------------------------------- resort pages
+# Labels are tried in order, most specific first.
 FIELD_LABELS = {
     "new24": [r"24\s*-?\s*h(?:(?:ou)?rs?)?\b", r"overnight", r"new snow(?: \(since[^)]*\))?", r"last 24"],
     "new48": [r"48\s*-?\s*h(?:(?:ou)?rs?)?\b"],
     "new7d": [r"7\s*-?\s*days?", r"seven days?", r"past week", r"this week"],
-    "base": [r"(?:alpine |mid[- ]mountain |upper |summit )?base(?: depth)?", r"snow base", r"settled base"],
-    "season": [r"season(?:al)? total", r"season to date", r"cumulative", r"total snowfall", r"season snowfall"],
+    "base": [r"alpine snow base", r"base depth", r"(?:alpine |mid[- ]mountain |upper |summit )base",
+             r"snow base", r"settled base", r"\bbase\b"],
+    "season": [r"season(?:al)? total", r"season to date", r"cumulative(?: snowfall)?", r"total snowfall",
+               r"season snowfall", r"this season"],
 }
+# Only separators (and a few filler words) may sit between a label and its value.
+AFTER_GAP = r"^(?:\s*\([^)]*\))?(?:\s*(?:snow(?:fall)?|depth|total|new))*[\s|:)\-–=]*"
+BEFORE_GAP = r"[\s|:\-–]*(?:(?:last|past|this|new)\s*)*$"
 LIMITS = {"new24": 150, "new48": 250, "new7d": 500, "base": 600, "season": 2000}
 NUM_UNIT = r"(\d{1,4}(?:\.\d)?)\s*(cm|centimet(?:er|re)s?|\"|”|in(?:ches)?\b)"
 
@@ -380,32 +397,39 @@ def from_vail(page):
     return {k: round(v) for k, v in out.items() if v is not None}
 
 
-def from_text(text):
+def from_text(text, side="auto"):
+    """Find labelled snow numbers. side: 'after' (label then value), 'before' (value then label) or 'auto'."""
     out = {}
     low = text.lower()
+    # join numbers and units that a page splits into separate elements: "0 | cm" -> "0 cm"
+    low = re.sub(r"(\d+(?:\.\d)?)\s*\|\s*(cm|in|\"|”)(?=\W|$)", r"\1 \2", low)
     for field, labels in FIELD_LABELS.items():
         for lab in labels:
             for m in re.finditer(lab, low):
-                window = low[m.end(): m.end() + 70]
-                n = re.search(NUM_UNIT, window)
-                if n and n.start() < 45:
-                    v = to_cm(n.group(1), n.group(2))
-                    if 0 <= v <= LIMITS[field]:
-                        out[field] = v
-                        break
-                before = low[max(0, m.start() - 25): m.start()]
-                n = re.search(NUM_UNIT + r"\s*[|:]?\s*$", before)
-                if n:
-                    v = to_cm(n.group(1), n.group(2))
-                    if 0 <= v <= LIMITS[field]:
-                        out[field] = v
-                        break
+                if side in ("auto", "after"):
+                    n = re.search(AFTER_GAP + NUM_UNIT, low[m.end(): m.end() + 60])
+                    if n:
+                        v = to_cm(n.group(1), n.group(2))
+                        if 0 <= v <= LIMITS[field]:
+                            out[field] = v
+                            break
+                if side in ("auto", "before"):
+                    n = re.search(NUM_UNIT + BEFORE_GAP, low[max(0, m.start() - 40): m.start()])
+                    if n:
+                        v = to_cm(n.group(1), n.group(2))
+                        if 0 <= v <= LIMITS[field]:
+                            out[field] = v
+                            break
             if field in out:
                 break
     lm = re.search(r"(\d{1,2})\s*(?:/|of)\s*(\d{1,2})\s*lifts?", low) or \
         re.search(r"lifts?(?: open)?\s*[|:]?\s*(\d{1,2})\s*(?:/|of)\s*(\d{1,2})", low)
     if lm and int(lm.group(1)) <= int(lm.group(2)):
         out["lifts"] = f"{lm.group(1)} / {lm.group(2)}"
+    um = re.search(r"(?:last )?updated:?\s*[|:]?\s*((?:mon|tue|wed|thu|fri|sat|sun)[a-z]*,?\s*)?"
+                   r"([a-z]{3,9}\.? \d{1,2}(?:st|nd|rd|th)?,? \d{4})", low)
+    if um:
+        out["updated"] = re.sub(r"(\d)(st|nd|rd|th)\b", r"\1", um.group(2)).title()
     return out
 
 
@@ -425,31 +449,64 @@ def table_pairs(soup):
     return " | ".join(lines)
 
 
-def resort_report(resort):
-    try:
-        page = fetch(f"resort_{resort['id']}.html", resort["report_url"])
-    except Exception as e:  # noqa: BLE001
-        log_health(f"{resort['name']} resort page", False, str(e)[:120])
-        return {"status": "Page could not be loaded"}
+SNOW_KEYS = ("new24", "new48", "new7d", "base", "season")
+
+
+def rendered_html(url):
+    """Load a page in headless Chromium so numbers filled in by JavaScript appear."""
+    from playwright.sync_api import sync_playwright
+    with sync_playwright() as p:
+        b = p.chromium.launch()
+        pg = b.new_page(user_agent=UA["User-Agent"])
+        pg.goto(url, wait_until="networkidle", timeout=60000)
+        pg.wait_for_timeout(3000)
+        page = pg.content()
+        b.close()
+    return page
+
+
+def parse_page(page, resort):
     soup = BeautifulSoup(page, "html.parser")
     for t in soup(["script", "style", "noscript", "svg"]):
         t.decompose()
     text = re.sub(r"[ \t]+", " ", soup.get_text(" | "))
     text = re.sub(r"(\s*\|\s*)+", " | ", text)
+    side = resort.get("value_side", "auto")
+    vals = from_vail(page)
+    for k, v in from_text(table_pairs(soup), side).items():
+        vals.setdefault(k, v)
+    for k, v in from_text(text, side).items():
+        vals.setdefault(k, v)
+    return vals, text
+
+
+def resort_report(resort):
+    name = f"{resort['name']} resort page"
+    try:
+        page = fetch(f"resort_{resort['id']}.html", resort["report_url"])
+    except Exception as e:  # noqa: BLE001
+        log_health(name, False, str(e)[:120])
+        return {"status": "Page could not be loaded"}
+    vals, text = parse_page(page, resort)
+    how = "page HTML"
+    if not any(k in vals for k in SNOW_KEYS) and not FIXTURES:
+        try:  # numbers may be filled in by JavaScript after the page loads
+            vals2, text2 = parse_page(rendered_html(resort["report_url"]), resort)
+            if any(k in vals2 for k in SNOW_KEYS) or len(text2) > len(text):
+                vals, text, how = vals2, text2, "rendered page"
+        except Exception as e:  # noqa: BLE001
+            print(f"rendered fetch failed for {resort['id']}: {e}", file=sys.stderr)
     DEBUG.mkdir(exist_ok=True)
     (DEBUG / f"{resort['id']}.txt").write_text(text[:60000], encoding="utf-8")
-    vals = from_vail(page)
-    for k, v in from_text(table_pairs(soup)).items():
-        vals.setdefault(k, v)
-    for k, v in from_text(text).items():
-        vals.setdefault(k, v)
-    got = [k for k in ("new24", "new7d", "base", "season") if k in vals]
+    got = [k for k in SNOW_KEYS if k in vals]
+    if got and all(vals[k] == 0 for k in got):
+        log_health(name, True, f"resort shows all zeros ({how}); treating as not posted yet")
+        return {"status": "Not posted yet (resort page shows zeros, usually because it isn't open)"}
     if got:
-        log_health(f"{resort['name']} resort page", True, "found " + ", ".join(got))
+        log_health(name, True, f"found {', '.join(got)} ({how})")
         vals["status"] = "ok"
     else:
-        log_health(f"{resort['name']} resort page", False,
-                   "loaded but no snow numbers found (not posted yet, or page needs a parser update)")
+        log_health(name, False, f"loaded but no snow numbers found ({how}); not posted yet, or parser needs an update")
         vals["status"] = "No snow numbers published"
     return vals
 

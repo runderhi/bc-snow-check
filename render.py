@@ -78,17 +78,23 @@ def station_rows(stations):
         return '<p class="note">No active snow station within range.</p>'
     out = []
     for s in stations:
-        if s.get("depth") is None:
-            out.append(f'<div class="row"><span>{e(s["name"])} ({e(s["id"])})</span><span class="na">No current data</span></div>')
+        if s.get("depth") is None and s.get("swe") is None:
+            out.append(f'<div class="stn"><div class="row"><span>{e(s["name"])} ({e(s["id"])})</span><span class="na">No current data</span></div></div>')
             continue
         where = " · ".join(p for p in (f'{s["elev"]:.0f} m' if s.get("elev") else "",
                                         f'{s["dist_km"]} km away' if s.get("dist_km") is not None else "") if p)
         stale = ' <span class="warn-t">(stale)</span>' if (s.get("age_h") or 0) > 30 else ""
+        top = cm(s["depth"]) if s.get("depth") is not None else f'{s["swe"]} mm SWE'
+        depth_row = (f'<div class="row"><span class="sub">Depth change 24h / 7d</span><span>{cm(s.get("d24"), True)} / {cm(s.get("d7"), True)}</span></div>'
+                     if s.get("depth") is not None else
+                     '<div class="row"><span class="sub">Snow depth</span><span class="na">sensor not reporting</span></div>')
+        swe_chg = (f' <span class="sub">({s["swe_d24"]:+d} / {s["swe_d7"]:+d} mm)</span>'
+                   if s.get("swe_d24") is not None and s.get("swe_d7") is not None else "")
         out.append(
             f'<div class="stn"><div class="row"><span><b>{e(s["name"])}</b> <span class="sub">{e(s["id"])} · {where}</span></span>'
-            f'<span class="big">{cm(s["depth"])}</span></div>'
-            f'<div class="row"><span class="sub">Depth change 24h / 7d</span><span>{cm(s.get("d24"), True)} / {cm(s.get("d7"), True)}</span></div>'
-            f'<div class="row"><span class="sub">Snow water equivalent</span><span>{s["swe"] if s.get("swe") is not None else "—"} mm</span></div>'
+            f'<span class="big">{top}</span></div>'
+            f'{depth_row}'
+            f'<div class="row"><span class="sub">Snow water equivalent (24h / 7d)</span><span>{s["swe"] if s.get("swe") is not None else "—"} mm{swe_chg}</span></div>'
             f'<div class="row"><span class="sub">Air temp · reading time</span><span>{s["temp"] if s.get("temp") is not None else "—"}°C · {when(s.get("time"))}{stale}</span></div></div>')
     return "".join(out)
 
@@ -98,7 +104,10 @@ def resort_rows(rep):
         return f'<p class="note">{e(rep.get("status"))}</p>'
     items = [("New 24h", cm(rep.get("new24"))), ("New 48h", cm(rep.get("new48"))), ("New 7 days", cm(rep.get("new7d"))),
              ("Base depth", cm(rep.get("base"))), ("Season total", cm(rep.get("season"))), ("Lifts open", e(rep.get("lifts")) or "—")]
-    return "".join(f'<div class="row"><span class="sub">{k}</span><span>{v}</span></div>' for k, v in items)
+    rows = "".join(f'<div class="row"><span class="sub">{k}</span><span>{v}</span></div>' for k, v in items)
+    if rep.get("updated"):
+        rows += f'<p class="note">Resort last updated {e(rep["updated"])}</p>'
+    return rows
 
 
 def card(r, base_hist):

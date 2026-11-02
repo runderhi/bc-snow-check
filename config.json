@@ -1,5 +1,6 @@
 {
-  "station_search_radius_km": 60,
+  "station_search_radius_km": 110,
+  "min_station_elev_m": 1300,
   "stations_per_resort": 2,
   "resorts": [
     {
@@ -8,8 +9,16 @@
       "lat": 50.958,
       "lon": -118.163,
       "summit_m": 2225,
-      "pinned_stations": ["2A06P"],
-      "report_url": "https://www.revelstokemountainresort.com/mountain/conditions/snow-report/"
+      "pinned_stations": [
+        "2A06P"
+      ],
+      "report_url": "https://www.revelstokemountainresort.com/mountain/conditions/snow-report/",
+      "local_links": [
+        {
+          "name": "Revelstoke Review",
+          "url": "https://www.revelstokereview.com/"
+        }
+      ]
     },
     {
       "id": "whistler",
@@ -17,8 +26,16 @@
       "lat": 50.059,
       "lon": -122.957,
       "summit_m": 2284,
-      "pinned_stations": [],
-      "report_url": "https://www.whistlerblackcomb.com/the-mountain/mountain-conditions/snow-and-weather-report.aspx"
+      "pinned_stations": [
+        "3A20P"
+      ],
+      "report_url": "https://www.whistlerblackcomb.com/the-mountain/mountain-conditions/snow-and-weather-report.aspx",
+      "local_links": [
+        {
+          "name": "Pique",
+          "url": "https://www.piquenewsmagazine.com/"
+        }
+      ]
     },
     {
       "id": "bigwhite",
@@ -27,7 +44,14 @@
       "lon": -118.932,
       "summit_m": 2319,
       "pinned_stations": [],
-      "report_url": "https://www.bigwhite.com/mountain-conditions/daily-snow-report"
+      "value_side": "after",
+      "report_url": "https://www.bigwhite.com/mountain-conditions/daily-snow-report",
+      "local_links": [
+        {
+          "name": "Castanet",
+          "url": "https://www.castanet.net/"
+        }
+      ]
     },
     {
       "id": "sunpeaks",
@@ -36,7 +60,13 @@
       "lon": -119.885,
       "summit_m": 2080,
       "pinned_stations": [],
-      "report_url": "https://www.sunpeaksresort.com/ski-ride/weather-conditions-cams/weather-snow-report"
+      "report_url": "https://www.sunpeaksresort.com/ski-ride/weather-conditions-cams/weather-snow-report",
+      "local_links": [
+        {
+          "name": "CFJC Today",
+          "url": "https://cfjctoday.com/"
+        }
+      ]
     },
     {
       "id": "fernie",
@@ -44,8 +74,17 @@
       "lat": 49.463,
       "lon": -115.087,
       "summit_m": 2134,
-      "pinned_stations": [],
-      "report_url": "https://skifernie.com/conditions/snow-report/"
+      "pinned_stations": [
+        "2C09Q"
+      ],
+      "value_side": "before",
+      "report_url": "https://skifernie.com/conditions/snow-report/",
+      "local_links": [
+        {
+          "name": "The Free Press",
+          "url": "https://thefreepress.ca/"
+        }
+      ]
     }
   ]
 }
