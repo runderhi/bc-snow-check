@@ -60,6 +60,7 @@
       "lon": -119.885,
       "summit_m": 2080,
       "pinned_stations": [],
+      "value_side": "after",
       "report_url": "https://www.sunpeaksresort.com/ski-ride/weather-conditions-cams/weather-snow-report",
       "local_links": [
         {
@@ -77,8 +78,8 @@
       "pinned_stations": [
         "2C09Q"
       ],
-      "value_side": "before",
       "report_url": "https://skifernie.com/conditions/snow-report/",
+      "report_json": "https://skifernie.com/wp-content/themes/kallyas-child/reportData/snowReport.json",
       "local_links": [
         {
           "name": "The Free Press",

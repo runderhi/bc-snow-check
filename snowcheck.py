@@ -4,7 +4,7 @@
 Sources
   Independent: BC automated snow weather stations (gov.bc.ca open data, hourly)
                Avalanche Canada public forecast API
-  Resort:      each resort's own snow-report page (best effort)
+  Resort:      each resort's own snow-report page or data file (best effort)
 
 Writes data/latest.json, data/history/<date>.json, debug/*.txt and docs/index.html.
 Set SNOW_FIXTURES=<dir> to read local sample files instead of the network.
@@ -20,6 +20,7 @@ import sys
 import time
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
+from urllib.parse import unquote
 
 import requests
 from bs4 import BeautifulSoup
@@ -364,7 +365,8 @@ FIELD_LABELS = {
     "new48": [r"48\s*-?\s*h(?:(?:ou)?rs?)?\b"],
     "new7d": [r"7\s*-?\s*days?", r"seven days?", r"past week", r"this week"],
     "base": [r"alpine snow base", r"base depth", r"(?:alpine |mid[- ]mountain |upper |summit )base",
-             r"snow base", r"settled base", r"\bbase\b"],
+             r"snow base", r"settled base", r"\bbase\b",
+             r"\balpine\b"],  # Sun Peaks: "Snow Base | Mid Mountain | 143 cm | Alpine | 165 cm"
     "season": [r"season(?:al)? total", r"season to date", r"cumulative(?: snowfall)?", r"total snowfall",
                r"season snowfall", r"this season"],
 }
@@ -395,6 +397,18 @@ def from_vail(page):
     out = {"new24": cm("TwentyFourHourSnowfall"), "new48": cm("FortyEightHourSnowfall"),
            "new7d": cm("SevenDaySnowfall"), "base": cm("BaseDepth"), "season": cm("CurrentSeason")}
     return {k: round(v) for k, v in out.items() if v is not None}
+
+
+def from_snow_json(d):
+    """Read the data file behind Fernie's report page: numeric strings, URL-encoded save date."""
+    fields = {"new24": "newSnow24", "new48": "newSnow48", "new7d": "newSnow7days",
+              "base": "snowPack", "season": "newSnowYTD"}
+    out = {k: round(num(d.get(v))) for k, v in fields.items() if num(d.get(v)) is not None}
+    # e.g. "Sun Nov 01 2026 13:58:52 GMT-0600 (Mountain Daylight Time)"
+    m = re.match(r"[a-z]{3} ([a-z]{3}) (\d{1,2}) (\d{4})\b", unquote(d.get("saveDate") or ""), re.I)
+    if m:
+        out["updated"] = f"{m.group(1)} {int(m.group(2))}, {m.group(3)}"
+    return out
 
 
 def from_text(text, side="auto"):
@@ -483,13 +497,17 @@ def parse_page(page, resort):
 def resort_report(resort):
     name = f"{resort['name']} resort page"
     try:
-        page = fetch(f"resort_{resort['id']}.html", resort["report_url"])
+        if resort.get("report_json"):
+            raw = fetch(f"resort_{resort['id']}.json", resort["report_json"], as_json=True)
+            vals, text, how = from_snow_json(raw), json.dumps(raw), "resort data file"
+        else:
+            page = fetch(f"resort_{resort['id']}.html", resort["report_url"])
+            vals, text = parse_page(page, resort)
+            how = "page HTML"
     except Exception as e:  # noqa: BLE001
         log_health(name, False, str(e)[:120])
         return {"status": "Page could not be loaded"}
-    vals, text = parse_page(page, resort)
-    how = "page HTML"
-    if not any(k in vals for k in SNOW_KEYS) and not FIXTURES:
+    if how == "page HTML" and not any(k in vals for k in SNOW_KEYS) and not FIXTURES:
         try:  # numbers may be filled in by JavaScript after the page loads
             vals2, text2 = parse_page(rendered_html(resort["report_url"]), resort)
             if any(k in vals2 for k in SNOW_KEYS) or len(text2) > len(text):
