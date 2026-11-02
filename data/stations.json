@@ -1,0 +1,1442 @@
+{
+ "2B08P": {
+  "id": "2B08P",
+  "name": "St. Leon Creek",
+  "lat": 50.434172,
+  "lon": -117.701214,
+  "elev": 1800.0,
+  "active": true
+ },
+ "2B10P": {
+  "id": "2B10P",
+  "name": "Fauquier Water Treatment Plant",
+  "lat": 49.864182,
+  "lon": -118.074228,
+  "elev": 519.0,
+  "active": true
+ },
+ "2C09P": {
+  "id": "2C09P",
+  "name": "Morrissey Ridge",
+  "lat": 49.447028,
+  "lon": -114.973675,
+  "elev": 1860.0,
+  "active": false
+ },
+ "2C09Q": {
+  "id": "2C09Q",
+  "name": "Morrissey Ridge",
+  "lat": 49.447222,
+  "lon": -114.975,
+  "elev": 1860.0,
+  "active": true
+ },
+ "2C10P": {
+  "id": "2C10P",
+  "name": "Moyie Mountain",
+  "lat": 49.2515,
+  "lon": -115.7739,
+  "elev": 1835.0,
+  "active": true
+ },
+ "2C14P": {
+  "id": "2C14P",
+  "name": "Floe Lake",
+  "lat": 51.059917,
+  "lon": -116.137117,
+  "elev": 2090.0,
+  "active": true
+ },
+ "2C17AP": {
+  "id": "2C17AP",
+  "name": "Thunder Creek",
+  "lat": 50.160831,
+  "lon": -115.267089,
+  "elev": 1599.0,
+  "active": true
+ },
+ "2C21P": {
+  "id": "2C21P",
+  "name": "Fernie",
+  "lat": 49.48825,
+  "lon": -115.072611,
+  "elev": 988.0,
+  "active": true
+ },
+ "2C23P": {
+  "id": "2C23P",
+  "name": "Flathead 2",
+  "lat": 49.0791,
+  "lon": -114.5373,
+  "elev": 1317.0,
+  "active": true
+ },
+ "2C24P": {
+  "id": "2C24P",
+  "name": "Marion",
+  "lat": 51.0422,
+  "lon": -116.3638,
+  "elev": 1300.0,
+  "active": true
+ },
+ "2D05P": {
+  "id": "2D05P",
+  "name": "Gray Creek Lower",
+  "lat": 49.61142,
+  "lon": -116.6788,
+  "elev": 1650.0,
+  "active": true
+ },
+ "2D07AP": {
+  "id": "2D07AP",
+  "name": "Duncan Lake Dam 2",
+  "lat": 50.238723,
+  "lon": -116.971343,
+  "elev": 559.0,
+  "active": true
+ },
+ "2D08P": {
+  "id": "2D08P",
+  "name": "East Creek",
+  "lat": 50.6396,
+  "lon": -116.929733,
+  "elev": 2030.0,
+  "active": true
+ },
+ "2D10P": {
+  "id": "2D10P",
+  "name": "Gray Creek Upper",
+  "lat": 49.61656,
+  "lon": -116.6589,
+  "elev": 1930.0,
+  "active": true
+ },
+ "2D14P": {
+  "id": "2D14P",
+  "name": "Redfish Creek",
+  "lat": 49.69008,
+  "lon": -117.0865,
+  "elev": 2100.0,
+  "active": true
+ },
+ "2D15P": {
+  "id": "2D15P",
+  "name": "Kaslo Airport",
+  "lat": 49.90375,
+  "lon": -116.928278,
+  "elev": 717.0,
+  "active": true
+ },
+ "2D16P": {
+  "id": "2D16P",
+  "name": "New Denver East",
+  "lat": 49.996657,
+  "lon": -117.358372,
+  "elev": 653.0,
+  "active": true
+ },
+ "2E07P": {
+  "id": "2E07P",
+  "name": "Grano Creek",
+  "lat": 49.55197,
+  "lon": -118.6773,
+  "elev": 1870.0,
+  "active": true
+ },
+ "2E08P": {
+  "id": "2E08P",
+  "name": "Beaverdell",
+  "lat": 49.4564,
+  "lon": -119.0886,
+  "elev": 807.0,
+  "active": true
+ },
+ "2F01AP": {
+  "id": "2F01AP",
+  "name": "Trout Creek West",
+  "lat": 49.74017,
+  "lon": -120.1891,
+  "elev": 1420.0,
+  "active": true
+ },
+ "2F03AP": {
+  "id": "2F03AP",
+  "name": "Mcculloch",
+  "lat": 49.76731,
+  "lon": -119.12403,
+  "elev": 1245.0,
+  "active": true
+ },
+ "2F05P": {
+  "id": "2F05P",
+  "name": "Mission Creek",
+  "lat": 49.94467,
+  "lon": -118.9497,
+  "elev": 1780.0,
+  "active": true
+ },
+ "2F08P": {
+  "id": "2F08P",
+  "name": "Greyback Reservoir",
+  "lat": 49.616344,
+  "lon": -119.422678,
+  "elev": 1550.0,
+  "active": true
+ },
+ "2F09P": {
+  "id": "2F09P",
+  "name": "Whiterocks Mountain",
+  "lat": 50.01669,
+  "lon": -119.7461,
+  "elev": 1800.0,
+  "active": true
+ },
+ "2F10P": {
+  "id": "2F10P",
+  "name": "Silver Star Mountain",
+  "lat": 50.37136,
+  "lon": -119.06211,
+  "elev": 1840.0,
+  "active": true
+ },
+ "2F18P": {
+  "id": "2F18P",
+  "name": "Brenda Mine",
+  "lat": 49.862361,
+  "lon": -119.982111,
+  "elev": 1460.0,
+  "active": true
+ },
+ "2F19P": {
+  "id": "2F19P",
+  "name": "Oyama Lake",
+  "lat": 50.11633,
+  "lon": -119.279,
+  "elev": 1360.0,
+  "active": true
+ },
+ "2F26P": {
+  "id": "2F26P",
+  "name": "Ellis Creek",
+  "lat": 49.4127,
+  "lon": -119.38332,
+  "elev": 1540.0,
+  "active": true
+ },
+ "2G03P": {
+  "id": "2G03P",
+  "name": "Blackwall Peak",
+  "lat": 49.09414,
+  "lon": -120.7725,
+  "elev": 1940.0,
+  "active": true
+ },
+ "2G06P": {
+  "id": "2G06P",
+  "name": "Hamilton Hill",
+  "lat": 49.49914,
+  "lon": -120.79439,
+  "elev": 1480.0,
+  "active": true
+ },
+ "3A09P": {
+  "id": "3A09P",
+  "name": "Palisade Lake",
+  "lat": 49.454444,
+  "lon": -123.031944,
+  "elev": 900.0,
+  "active": true
+ },
+ "3A17P": {
+  "id": "3A17P",
+  "name": "Tiedemann Glacier",
+  "lat": 51.35,
+  "lon": -124.966667,
+  "elev": 1400.0,
+  "active": false
+ },
+ "3A19P": {
+  "id": "3A19P",
+  "name": "Orchid Lake",
+  "lat": 49.535833,
+  "lon": -123.050834,
+  "elev": 1180.0,
+  "active": true
+ },
+ "3A20P": {
+  "id": "3A20P",
+  "name": "Callaghan Creek",
+  "lat": 50.137056,
+  "lon": -123.102889,
+  "elev": 1017.0,
+  "active": true
+ },
+ "3A22P": {
+  "id": "3A22P",
+  "name": "Nostetuko River",
+  "lat": 51.24325,
+  "lon": -124.459583,
+  "elev": 1500.0,
+  "active": true
+ },
+ "3A24P": {
+  "id": "3A24P",
+  "name": "Mosley Creek Upper",
+  "lat": 51.77617,
+  "lon": -124.6218,
+  "elev": 1650.0,
+  "active": true
+ },
+ "3A25P": {
+  "id": "3A25P",
+  "name": "Squamish River Upper",
+  "lat": 50.1543,
+  "lon": -123.4361,
+  "elev": 1360.0,
+  "active": true
+ },
+ "3A28P": {
+  "id": "3A28P",
+  "name": "Tetrahedron",
+  "lat": 49.59785,
+  "lon": -123.60499,
+  "elev": 1420.0,
+  "active": true
+ },
+ "3A29P": {
+  "id": "3A29P",
+  "name": "Loch Lomand",
+  "lat": 49.592,
+  "lon": -123.0444,
+  "elev": 1070.0,
+  "active": true
+ },
+ "3B17P": {
+  "id": "3B17P",
+  "name": "Wolf River Upper",
+  "lat": 49.704139,
+  "lon": -125.67925,
+  "elev": 1490.0,
+  "active": true
+ },
+ "3B23P": {
+  "id": "3B23P",
+  "name": "Jump Creek",
+  "lat": 48.969505,
+  "lon": -124.276182,
+  "elev": 1160.0,
+  "active": true
+ },
+ "3B24P": {
+  "id": "3B24P",
+  "name": "Heather Mountain Upper",
+  "lat": 48.943875,
+  "lon": -124.452113,
+  "elev": 1190.0,
+  "active": true
+ },
+ "3B25P": {
+  "id": "3B25P",
+  "name": "Malaview Test Asws",
+  "lat": 48.486,
+  "lon": -123.412306,
+  "elev": 35.0,
+  "active": false
+ },
+ "3B26P": {
+  "id": "3B26P",
+  "name": "Mount Arrowsmith",
+  "lat": 49.207376,
+  "lon": -124.567776,
+  "elev": 1465.0,
+  "active": true
+ },
+ "3B27P": {
+  "id": "3B27P",
+  "name": "Cobble Hill",
+  "lat": 48.69899,
+  "lon": -123.59287,
+  "elev": 85.0,
+  "active": true
+ },
+ "3B28P": {
+  "id": "3B28P",
+  "name": "Chris Creek",
+  "lat": 48.580278,
+  "lon": -123.840556,
+  "elev": 560.0,
+  "active": true
+ },
+ "3B29P": {
+  "id": "3B29P",
+  "name": "Martins Gulch",
+  "lat": 48.516111,
+  "lon": -123.764444,
+  "elev": 512.0,
+  "active": true
+ },
+ "3B30P": {
+  "id": "3B30P",
+  "name": "North Basin",
+  "lat": 48.572222,
+  "lon": -123.706806,
+  "elev": 281.0,
+  "active": true
+ },
+ "3B31P": {
+  "id": "3B31P",
+  "name": "Survey Mountain",
+  "lat": 48.559167,
+  "lon": -123.799167,
+  "elev": 940.0,
+  "active": true
+ },
+ "3B32P": {
+  "id": "3B32P",
+  "name": "Saltspring 2",
+  "lat": 48.7729,
+  "lon": -123.4745,
+  "elev": 15.0,
+  "active": true
+ },
+ "3B33P": {
+  "id": "3B33P",
+  "name": "Ts Artlish",
+  "lat": 50.1324,
+  "lon": -126.9282,
+  "elev": 120.0,
+  "active": true
+ },
+ "3B34P": {
+  "id": "3B34P",
+  "name": "Woss Camp",
+  "lat": 50.2132,
+  "lon": -126.6071,
+  "elev": 151.0,
+  "active": true
+ },
+ "3C08P": {
+  "id": "3C08P",
+  "name": "Burnt Bridge Creek",
+  "lat": 52.480889,
+  "lon": -126.247833,
+  "elev": 1330.0,
+  "active": true
+ },
+ "3C09P": {
+  "id": "3C09P",
+  "name": "Anahim Lake",
+  "lat": 52.4606,
+  "lon": -125.307,
+  "elev": 1097.0,
+  "active": true
+ },
+ "3C10P": {
+  "id": "3C10P",
+  "name": "Hagensborg 2",
+  "lat": 52.3873,
+  "lon": -126.5897,
+  "elev": 47.0,
+  "active": true
+ },
+ "3C11P": {
+  "id": "3C11P",
+  "name": "Kitpark",
+  "lat": 54.1696,
+  "lon": -128.5759,
+  "elev": null,
+  "active": true
+ },
+ "4A02P": {
+  "id": "4A02P",
+  "name": "Pine Pass",
+  "lat": 55.353,
+  "lon": -122.637333,
+  "elev": 1400.0,
+  "active": true
+ },
+ "4A03P": {
+  "id": "4A03P",
+  "name": "Ware Upper",
+  "lat": 57.396181,
+  "lon": -125.700469,
+  "elev": 1565.0,
+  "active": true
+ },
+ "4A04P": {
+  "id": "4A04P",
+  "name": "Ware Lower",
+  "lat": 57.407556,
+  "lon": -125.677339,
+  "elev": 971.0,
+  "active": true
+ },
+ "4A09P": {
+  "id": "4A09P",
+  "name": "Pulpit Lake",
+  "lat": 57.548583,
+  "lon": -126.748314,
+  "elev": 1311.0,
+  "active": true
+ },
+ "4A10P": {
+  "id": "4A10P",
+  "name": "Fredrickson Lake",
+  "lat": 56.948458,
+  "lon": -126.520716,
+  "elev": 1326.0,
+  "active": true
+ },
+ "4A12P": {
+  "id": "4A12P",
+  "name": "Tsaydaychi Lake",
+  "lat": 55.41635,
+  "lon": -124.763,
+  "elev": null,
+  "active": true
+ },
+ "4A13P": {
+  "id": "4A13P",
+  "name": "Philip Lake",
+  "lat": 55.1238,
+  "lon": -123.897927,
+  "elev": 1028.0,
+  "active": true
+ },
+ "4A18P": {
+  "id": "4A18P",
+  "name": "Mount Sheba",
+  "lat": 54.526667,
+  "lon": -121.804167,
+  "elev": 1490.0,
+  "active": true
+ },
+ "4A20P": {
+  "id": "4A20P",
+  "name": "Monkman Creek",
+  "lat": 54.725281,
+  "lon": -121.231697,
+  "elev": 1570.0,
+  "active": true
+ },
+ "4A27P": {
+  "id": "4A27P",
+  "name": "Kwadacha North",
+  "lat": 57.623333,
+  "lon": -125.073167,
+  "elev": 1554.0,
+  "active": true
+ },
+ "4A29P": {
+  "id": "4A29P",
+  "name": "Parsnip River",
+  "lat": 54.602466,
+  "lon": -122.134657,
+  "elev": 800.0,
+  "active": false
+ },
+ "4A30P": {
+  "id": "4A30P",
+  "name": "Aiken Lake",
+  "lat": 56.43686,
+  "lon": -125.7417,
+  "elev": 1050.0,
+  "active": true
+ },
+ "4A31P": {
+  "id": "4A31P",
+  "name": "Crying Girl Prairie",
+  "lat": 56.385861,
+  "lon": -122.892833,
+  "elev": 1358.0,
+  "active": true
+ },
+ "4A33P": {
+  "id": "4A33P",
+  "name": "Muskwa-Kechika",
+  "lat": 56.781389,
+  "lon": -123.106389,
+  "elev": 1196.0,
+  "active": true
+ },
+ "4A34P": {
+  "id": "4A34P",
+  "name": "Dowling Creek",
+  "lat": 55.825083,
+  "lon": -122.43625,
+  "elev": 1456.0,
+  "active": true
+ },
+ "4A35P": {
+  "id": "4A35P",
+  "name": "Germansen Landing",
+  "lat": 55.785528,
+  "lon": -124.701444,
+  "elev": 766.0,
+  "active": true
+ },
+ "4A36P": {
+  "id": "4A36P",
+  "name": "Parsnip Upper",
+  "lat": 54.605556,
+  "lon": -122.137583,
+  "elev": 790.0,
+  "active": true
+ },
+ "4A37P": {
+  "id": "4A37P",
+  "name": "Mcque Terrace",
+  "lat": 56.9815,
+  "lon": -123.404167,
+  "elev": 1200.0,
+  "active": true
+ },
+ "4A38P": {
+  "id": "4A38P",
+  "name": "Horn Creek",
+  "lat": 56.734766,
+  "lon": -123.606,
+  "elev": 1450.0,
+  "active": true
+ },
+ "4A39P": {
+  "id": "4A39P",
+  "name": "Chowade Upper",
+  "lat": 56.636833,
+  "lon": -122.778867,
+  "elev": 1480.0,
+  "active": true
+ },
+ "4A40P": {
+  "id": "4A40P",
+  "name": "Crocker Creek",
+  "lat": 54.93481,
+  "lon": -122.18292,
+  "elev": 995.0,
+  "active": true
+ },
+ "4A45P": {
+  "id": "4A45P",
+  "name": "Red Crag",
+  "lat": 57.168492,
+  "lon": -127.502083,
+  "elev": 1614.0,
+  "active": true
+ },
+ "4A46P": {
+  "id": "4A46P",
+  "name": "Noel",
+  "lat": 55.2956,
+  "lon": -120.485,
+  "elev": 977.0,
+  "active": true
+ },
+ "4A47P": {
+  "id": "4A47P",
+  "name": "Sawtooth",
+  "lat": 55.3144,
+  "lon": -125.3484,
+  "elev": 996.0,
+  "active": true
+ },
+ "4A48P": {
+  "id": "4A48P",
+  "name": "Tumbler Hub",
+  "lat": 55.0274,
+  "lon": -120.934,
+  "elev": 932.0,
+  "active": true
+ },
+ "4B02P": {
+  "id": "4B02P",
+  "name": "Johanson Lake",
+  "lat": 56.605415,
+  "lon": -126.19401,
+  "elev": 1467.0,
+  "active": true
+ },
+ "4B12P": {
+  "id": "4B12P",
+  "name": "Granduc Mine",
+  "lat": 56.2467,
+  "lon": -130.0662,
+  "elev": 790.0,
+  "active": false
+ },
+ "4B15P": {
+  "id": "4B15P",
+  "name": "Lu Lake",
+  "lat": 54.19683,
+  "lon": -126.3041,
+  "elev": 1300.0,
+  "active": true
+ },
+ "4B16P": {
+  "id": "4B16P",
+  "name": "Shedin Creek",
+  "lat": 55.861653,
+  "lon": -127.69842,
+  "elev": 1480.0,
+  "active": true
+ },
+ "4B17P": {
+  "id": "4B17P",
+  "name": "Tsai Creek",
+  "lat": 54.645906,
+  "lon": -127.674272,
+  "elev": 1360.0,
+  "active": true
+ },
+ "4B18P": {
+  "id": "4B18P",
+  "name": "Cedar-Kiteen",
+  "lat": 55.152028,
+  "lon": -128.711028,
+  "elev": 885.0,
+  "active": true
+ },
+ "4B19P": {
+  "id": "4B19P",
+  "name": "Upper Skeena",
+  "lat": 56.538,
+  "lon": -127.657,
+  "elev": 1537.0,
+  "active": true
+ },
+ "4B20P": {
+  "id": "4B20P",
+  "name": "Cedarvale",
+  "lat": 55.0301,
+  "lon": -128.3115,
+  "elev": 174.0,
+  "active": true
+ },
+ "4C01P": {
+  "id": "4C01P",
+  "name": "Sikanni Lake",
+  "lat": 57.263756,
+  "lon": -124.131981,
+  "elev": 1387.0,
+  "active": true
+ },
+ "4C09P": {
+  "id": "4C09P",
+  "name": "Deadwood River",
+  "lat": 59.25745,
+  "lon": -128.31979,
+  "elev": 1250.0,
+  "active": true
+ },
+ "4C11P": {
+  "id": "4C11P",
+  "name": "Bluff Creek",
+  "lat": 58.533333,
+  "lon": -126.45,
+  "elev": 1040.0,
+  "active": false
+ },
+ "4C14P": {
+  "id": "4C14P",
+  "name": "Frog River",
+  "lat": 57.982551,
+  "lon": -127.493339,
+  "elev": 1480.0,
+  "active": false
+ },
+ "4C20P": {
+  "id": "4C20P",
+  "name": "Sierra Climate",
+  "lat": 58.838191,
+  "lon": -121.396516,
+  "elev": 572.0,
+  "active": false
+ },
+ "4C21P": {
+  "id": "4C21P",
+  "name": "Two Island Climate",
+  "lat": 59.344647,
+  "lon": -122.085922,
+  "elev": 708.0,
+  "active": false
+ },
+ "4C22P": {
+  "id": "4C22P",
+  "name": "Kiwigana Climate",
+  "lat": 59.260277,
+  "lon": -123.056666,
+  "elev": 30.0,
+  "active": false
+ },
+ "4D08P": {
+  "id": "4D08P",
+  "name": "Forrest-Kerr Creek",
+  "lat": 56.95,
+  "lon": -130.783333,
+  "elev": 560.0,
+  "active": false
+ },
+ "4D10P": {
+  "id": "4D10P",
+  "name": "Tumeka Creek",
+  "lat": 57.238829,
+  "lon": -129.706672,
+  "elev": 1220.0,
+  "active": true
+ },
+ "4D11P": {
+  "id": "4D11P",
+  "name": "Kinaskan Lake",
+  "lat": 57.57869,
+  "lon": -130.262739,
+  "elev": 1020.0,
+  "active": true
+ },
+ "4D13P": {
+  "id": "4D13P",
+  "name": "Upper Stikine",
+  "lat": 57.233333,
+  "lon": -128.316667,
+  "elev": 1450.0,
+  "active": false
+ },
+ "4D14P": {
+  "id": "4D14P",
+  "name": "Wade Lake",
+  "lat": 58.18419,
+  "lon": -128.91216,
+  "elev": 1430.0,
+  "active": true
+ },
+ "4D16P": {
+  "id": "4D16P",
+  "name": "Forrest Kerr Mid Elevation Snow",
+  "lat": 56.753333,
+  "lon": -130.691111,
+  "elev": 1192.0,
+  "active": true
+ },
+ "4D17P": {
+  "id": "4D17P",
+  "name": "Forrest Kerr High Elevation Snow",
+  "lat": 56.758889,
+  "lon": -130.746389,
+  "elev": 1622.0,
+  "active": true
+ },
+ "4D18P": {
+  "id": "4D18P",
+  "name": "Bob Quinn Lake",
+  "lat": 56.9809,
+  "lon": -130.251,
+  "elev": 605.0,
+  "active": true
+ },
+ "4D19P": {
+  "id": "4D19P",
+  "name": "Dease Lake Fs",
+  "lat": 58.4258,
+  "lon": -130.0187,
+  "elev": 797.0,
+  "active": true
+ },
+ "4D20P": {
+  "id": "4D20P",
+  "name": "Iskut",
+  "lat": 57.8617,
+  "lon": -130.0181,
+  "elev": 857.0,
+  "active": true
+ },
+ "4D21P": {
+  "id": "4D21P",
+  "name": "Telegraph Creek",
+  "lat": 57.9141,
+  "lon": -131.1711,
+  "elev": 382.0,
+  "active": true
+ },
+ "4E01P": {
+  "id": "4E01P",
+  "name": "Log Cabin",
+  "lat": 59.764044,
+  "lon": -134.965611,
+  "elev": 890.0,
+  "active": true
+ },
+ "4E04P": {
+  "id": "4E04P",
+  "name": "Atlin",
+  "lat": 59.5845,
+  "lon": -133.6643,
+  "elev": 719.0,
+  "active": true
+ },
+ "1A01P": {
+  "id": "1A01P",
+  "name": "Yellowhead Lake",
+  "lat": 52.90622,
+  "lon": -118.5475,
+  "elev": 1860.0,
+  "active": true
+ },
+ "1A02P": {
+  "id": "1A02P",
+  "name": "Mcbride Upper",
+  "lat": 53.30604,
+  "lon": -120.31926,
+  "elev": 1610.0,
+  "active": true
+ },
+ "1A03P": {
+  "id": "1A03P",
+  "name": "Barkerville",
+  "lat": 53.057338,
+  "lon": -121.491828,
+  "elev": 1470.0,
+  "active": true
+ },
+ "1A05P": {
+  "id": "1A05P",
+  "name": "Longworth Upper",
+  "lat": 53.95083,
+  "lon": -121.4431,
+  "elev": 1740.0,
+  "active": true
+ },
+ "1A12P": {
+  "id": "1A12P",
+  "name": "Kaza Lake",
+  "lat": 56.021192,
+  "lon": -126.297597,
+  "elev": 1257.0,
+  "active": true
+ },
+ "1A14P": {
+  "id": "1A14P",
+  "name": "Hedrick Lake",
+  "lat": 54.105778,
+  "lon": -121.0,
+  "elev": 1130.0,
+  "active": true
+ },
+ "1A15P": {
+  "id": "1A15P",
+  "name": "Knudsen Lake",
+  "lat": 54.30266,
+  "lon": -120.782813,
+  "elev": 1580.0,
+  "active": true
+ },
+ "1A17P": {
+  "id": "1A17P",
+  "name": "Revolution Creek",
+  "lat": 53.78422,
+  "lon": -120.3752,
+  "elev": 1680.0,
+  "active": true
+ },
+ "1A19P": {
+  "id": "1A19P",
+  "name": "Dome Mountain",
+  "lat": 53.621861,
+  "lon": -121.023111,
+  "elev": 1774.0,
+  "active": true
+ },
+ "1B01P": {
+  "id": "1B01P",
+  "name": "Mount Wells",
+  "lat": 53.72861,
+  "lon": -126.423614,
+  "elev": 1490.0,
+  "active": true
+ },
+ "1B02P": {
+  "id": "1B02P",
+  "name": "Tahtsa Lake",
+  "lat": 53.593055,
+  "lon": -127.64389,
+  "elev": 1300.0,
+  "active": true
+ },
+ "1B08P": {
+  "id": "1B08P",
+  "name": "Mt. Pondosy",
+  "lat": 53.1525,
+  "lon": -126.881111,
+  "elev": 1400.0,
+  "active": true
+ },
+ "1C05P": {
+  "id": "1C05P",
+  "name": "Mcgillivray Pass",
+  "lat": 50.698556,
+  "lon": -122.625375,
+  "elev": 1718.0,
+  "active": true
+ },
+ "1C12P": {
+  "id": "1C12P",
+  "name": "Green Mountain",
+  "lat": 50.795633,
+  "lon": -122.924542,
+  "elev": 1780.0,
+  "active": true
+ },
+ "1C14P": {
+  "id": "1C14P",
+  "name": "Bralorne",
+  "lat": 50.775189,
+  "lon": -122.788819,
+  "elev": 1382.0,
+  "active": true
+ },
+ "1C17P": {
+  "id": "1C17P",
+  "name": "Mount Timothy",
+  "lat": 51.90453,
+  "lon": -121.25604,
+  "elev": 1630.0,
+  "active": true
+ },
+ "1C18P": {
+  "id": "1C18P",
+  "name": "Mission Ridge",
+  "lat": 50.762556,
+  "lon": -122.207694,
+  "elev": 1850.0,
+  "active": true
+ },
+ "1C20P": {
+  "id": "1C20P",
+  "name": "Boss Mountain Mine",
+  "lat": 52.1069,
+  "lon": -120.86727,
+  "elev": 1460.0,
+  "active": true
+ },
+ "1C22AP": {
+  "id": "1C22AP",
+  "name": "Puntzi Mountain",
+  "lat": 52.109,
+  "lon": -124.15273,
+  "elev": 920.0,
+  "active": true
+ },
+ "1C23P": {
+  "id": "1C23P",
+  "name": "Penfold Creek",
+  "lat": 52.74882,
+  "lon": -120.56057,
+  "elev": 1740.0,
+  "active": true
+ },
+ "1C29P": {
+  "id": "1C29P",
+  "name": "Shovelnose Mountain",
+  "lat": 49.855951,
+  "lon": -120.862891,
+  "elev": 1460.0,
+  "active": true
+ },
+ "1C32P": {
+  "id": "1C32P",
+  "name": "Deadman River",
+  "lat": 51.098512,
+  "lon": -120.609694,
+  "elev": 1460.0,
+  "active": true
+ },
+ "1C38P": {
+  "id": "1C38P",
+  "name": "Downton Lake Upper",
+  "lat": 50.859792,
+  "lon": -123.183633,
+  "elev": 1829.0,
+  "active": true
+ },
+ "1C40P": {
+  "id": "1C40P",
+  "name": "North Tyaughton",
+  "lat": 51.147525,
+  "lon": -122.793753,
+  "elev": 1969.0,
+  "active": true
+ },
+ "1C41P": {
+  "id": "1C41P",
+  "name": "Yanks Peak",
+  "lat": 52.83201,
+  "lon": -121.35564,
+  "elev": 1670.0,
+  "active": true
+ },
+ "1C43P": {
+  "id": "1C43P",
+  "name": "Bridge Glacier Proglacial Lake",
+  "lat": 50.831492,
+  "lon": -123.486422,
+  "elev": 1505.0,
+  "active": true
+ },
+ "1C44P": {
+  "id": "1C44P",
+  "name": "Paradise Lake",
+  "lat": 49.948639,
+  "lon": -120.282278,
+  "elev": 1640.0,
+  "active": true
+ },
+ "1C45P": {
+  "id": "1C45P",
+  "name": "July Mountain",
+  "lat": 49.707639,
+  "lon": -121.085472,
+  "elev": 1860.0,
+  "active": true
+ },
+ "1C47P": {
+  "id": "1C47P",
+  "name": "Afton",
+  "lat": 50.6727,
+  "lon": -120.4822,
+  "elev": 693.0,
+  "active": true
+ },
+ "1C48P": {
+  "id": "1C48P",
+  "name": "Alexis Creek",
+  "lat": 52.0838,
+  "lon": -123.2733,
+  "elev": 791.0,
+  "active": true
+ },
+ "1C49P": {
+  "id": "1C49P",
+  "name": "Lillooet",
+  "lat": 50.672,
+  "lon": -121.8882,
+  "elev": 408.0,
+  "active": true
+ },
+ "1C50P": {
+  "id": "1C50P",
+  "name": "Nazko",
+  "lat": 52.9575,
+  "lon": -123.5958,
+  "elev": 910.0,
+  "active": false
+ },
+ "1D06P": {
+  "id": "1D06P",
+  "name": "Tenquille Lake",
+  "lat": 50.53625,
+  "lon": -122.92996,
+  "elev": 1680.0,
+  "active": true
+ },
+ "1D08P": {
+  "id": "1D08P",
+  "name": "Lamont Creek Upper",
+  "lat": 49.581909,
+  "lon": -122.314283,
+  "elev": 1208.0,
+  "active": true
+ },
+ "1D09P": {
+  "id": "1D09P",
+  "name": "Wahleach Lake",
+  "lat": 49.23275,
+  "lon": -121.579883,
+  "elev": 1480.0,
+  "active": true
+ },
+ "1D11P": {
+  "id": "1D11P",
+  "name": "Boston Bar Creek (Upper)",
+  "lat": 49.58333,
+  "lon": -121.216667,
+  "elev": 1340.0,
+  "active": false
+ },
+ "1D12P": {
+  "id": "1D12P",
+  "name": "Boston Bar Creek (Lower)",
+  "lat": 49.6,
+  "lon": -121.116667,
+  "elev": 1230.0,
+  "active": false
+ },
+ "1D14P": {
+  "id": "1D14P",
+  "name": "Ottomite Mountain",
+  "lat": 49.6,
+  "lon": -120.15,
+  "elev": 1460.0,
+  "active": false
+ },
+ "1D15P": {
+  "id": "1D15P",
+  "name": "Great Bear",
+  "lat": 49.486042,
+  "lon": -121.107109,
+  "elev": 1660.0,
+  "active": false
+ },
+ "1D16P": {
+  "id": "1D16P",
+  "name": "Dickson Lake",
+  "lat": 49.316704,
+  "lon": -122.06965,
+  "elev": 1155.0,
+  "active": true
+ },
+ "1D17P": {
+  "id": "1D17P",
+  "name": "Chilliwack River",
+  "lat": 49.0315,
+  "lon": -121.7121,
+  "elev": 1620.0,
+  "active": true
+ },
+ "1D18P": {
+  "id": "1D18P",
+  "name": "Disappointment Lake",
+  "lat": 49.555,
+  "lon": -122.758333,
+  "elev": 1050.0,
+  "active": true
+ },
+ "1D19P": {
+  "id": "1D19P",
+  "name": "Spuzzum",
+  "lat": 49.660831,
+  "lon": -121.660835,
+  "elev": 1180.0,
+  "active": true
+ },
+ "1D20P": {
+  "id": "1D20P",
+  "name": "Darcy",
+  "lat": 50.5217,
+  "lon": -122.4978,
+  "elev": 334.0,
+  "active": true
+ },
+ "1D21P": {
+  "id": "1D21P",
+  "name": "Ford Mountain",
+  "lat": 49.1039,
+  "lon": -121.6376,
+  "elev": 372.0,
+  "active": true
+ },
+ "1E02P": {
+  "id": "1E02P",
+  "name": "Mount Cook",
+  "lat": 52.18214,
+  "lon": -119.3227,
+  "elev": 1570.0,
+  "active": true
+ },
+ "1E03AP": {
+  "id": "1E03AP",
+  "name": "Trophy Mountain",
+  "lat": 51.808369,
+  "lon": -119.940639,
+  "elev": 1880.0,
+  "active": true
+ },
+ "1E08P": {
+  "id": "1E08P",
+  "name": "Azure River",
+  "lat": 52.595917,
+  "lon": -119.722694,
+  "elev": 1640.0,
+  "active": true
+ },
+ "1E10P": {
+  "id": "1E10P",
+  "name": "Kostal Lake",
+  "lat": 52.203334,
+  "lon": -120.016944,
+  "elev": 1770.0,
+  "active": true
+ },
+ "1E11P": {
+  "id": "1E11P",
+  "name": "Mt St Anne",
+  "lat": 52.266667,
+  "lon": -119.233333,
+  "elev": 1780.0,
+  "active": false
+ },
+ "1E14P": {
+  "id": "1E14P",
+  "name": "Cook Creek",
+  "lat": 52.167777,
+  "lon": -119.303888,
+  "elev": 1280.0,
+  "active": true
+ },
+ "1E15P": {
+  "id": "1E15P",
+  "name": "Clearwater Hub",
+  "lat": 51.6289,
+  "lon": -120.0946,
+  "elev": 440.0,
+  "active": true
+ },
+ "1F03P": {
+  "id": "1F03P",
+  "name": "Park Mountain",
+  "lat": 50.44961,
+  "lon": -118.61856,
+  "elev": 1890.0,
+  "active": true
+ },
+ "1F04P": {
+  "id": "1F04P",
+  "name": "Enderby",
+  "lat": 50.653025,
+  "lon": -118.926903,
+  "elev": 1950.0,
+  "active": true
+ },
+ "1F04P2": {
+  "id": "1F04P2",
+  "name": "Enderby Tower 2",
+  "lat": 50.653025,
+  "lon": -118.926903,
+  "elev": 1950.0,
+  "active": false
+ },
+ "1F06P": {
+  "id": "1F06P",
+  "name": "Celista",
+  "lat": 51.405917,
+  "lon": -118.986,
+  "elev": 1500.0,
+  "active": true
+ },
+ "1F07P": {
+  "id": "1F07P",
+  "name": "Turtle",
+  "lat": 50.8036,
+  "lon": -119.6307,
+  "elev": 660.0,
+  "active": true
+ },
+ "2A06P": {
+  "id": "2A06P",
+  "name": "Mount Revelstoke",
+  "lat": 51.036342,
+  "lon": -118.151603,
+  "elev": 1850.0,
+  "active": true
+ },
+ "2A17P": {
+  "id": "2A17P",
+  "name": "Fidelity Mountain",
+  "lat": 51.233333,
+  "lon": -117.716667,
+  "elev": 1874.0,
+  "active": false
+ },
+ "2A18P": {
+  "id": "2A18P",
+  "name": "Keystone Creek",
+  "lat": 51.411289,
+  "lon": -118.360656,
+  "elev": 1840.0,
+  "active": true
+ },
+ "2A21P": {
+  "id": "2A21P",
+  "name": "Molson Creek",
+  "lat": 52.220556,
+  "lon": -118.225833,
+  "elev": 1935.0,
+  "active": true
+ },
+ "2A27P": {
+  "id": "2A27P",
+  "name": "Downie Slide Lower",
+  "lat": 51.511984,
+  "lon": -118.529865,
+  "elev": 965.0,
+  "active": true
+ },
+ "2A30P": {
+  "id": "2A30P",
+  "name": "Colpitti Creek",
+  "lat": 51.607722,
+  "lon": -117.610861,
+  "elev": 2131.0,
+  "active": true
+ },
+ "2A31P": {
+  "id": "2A31P",
+  "name": "Caribou Creek",
+  "lat": 51.109028,
+  "lon": -117.228417,
+  "elev": 2201.0,
+  "active": true
+ },
+ "2A32P": {
+  "id": "2A32P",
+  "name": "Wildcat Creek",
+  "lat": 51.696303,
+  "lon": -116.629411,
+  "elev": 2122.0,
+  "active": true
+ },
+ "2A33P": {
+  "id": "2A33P",
+  "name": "Conrad Glacier",
+  "lat": 50.812033,
+  "lon": -116.93975,
+  "elev": 2599.0,
+  "active": true
+ },
+ "2A34P": {
+  "id": "2A34P",
+  "name": "Glacier Np Rogers Pass Lower",
+  "lat": 51.270116,
+  "lon": -117.509425,
+  "elev": 1182.0,
+  "active": true
+ },
+ "2A35P": {
+  "id": "2A35P",
+  "name": "Fred Laing Lower",
+  "lat": 52.05381,
+  "lon": -118.58594,
+  "elev": 577.0,
+  "active": true
+ },
+ "2A36P": {
+  "id": "2A36P",
+  "name": "Toby Hub",
+  "lat": 50.5128,
+  "lon": -116.0553,
+  "elev": 894.0,
+  "active": true
+ },
+ "2B02AP": {
+  "id": "2B02AP",
+  "name": "Farron",
+  "lat": 49.27017,
+  "lon": -118.13016,
+  "elev": 1230.0,
+  "active": true
+ },
+ "2B06P": {
+  "id": "2B06P",
+  "name": "Barnes Creek",
+  "lat": 50.068553,
+  "lon": -118.351122,
+  "elev": 1620.0,
+  "active": true
+ }
+}
