@@ -26,6 +26,8 @@ jobs:
           cache: pip
 
       - run: pip install -r requirements.txt
+      - name: Install headless browser (for resort pages built with JavaScript)
+        run: python -m playwright install --with-deps chromium
 
       - name: Build report
         run: python snowcheck.py
