@@ -59,7 +59,9 @@
       "lat": 50.884,
       "lon": -119.885,
       "summit_m": 2080,
-      "pinned_stations": [],
+      "pinned_stations": [
+        "2F10P"
+      ],
       "value_side": "after",
       "report_url": "https://www.sunpeaksresort.com/ski-ride/weather-conditions-cams/weather-snow-report",
       "local_links": [
