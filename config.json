@@ -1,0 +1,51 @@
+{
+  "station_search_radius_km": 60,
+  "stations_per_resort": 2,
+  "resorts": [
+    {
+      "id": "revelstoke",
+      "name": "Revelstoke",
+      "lat": 50.958,
+      "lon": -118.163,
+      "summit_m": 2225,
+      "pinned_stations": ["2A06P"],
+      "report_url": "https://www.revelstokemountainresort.com/mountain/conditions/snow-report/"
+    },
+    {
+      "id": "whistler",
+      "name": "Whistler Blackcomb",
+      "lat": 50.059,
+      "lon": -122.957,
+      "summit_m": 2284,
+      "pinned_stations": [],
+      "report_url": "https://www.whistlerblackcomb.com/the-mountain/mountain-conditions/snow-and-weather-report.aspx"
+    },
+    {
+      "id": "bigwhite",
+      "name": "Big White",
+      "lat": 49.725,
+      "lon": -118.932,
+      "summit_m": 2319,
+      "pinned_stations": [],
+      "report_url": "https://www.bigwhite.com/mountain-conditions/daily-snow-report"
+    },
+    {
+      "id": "sunpeaks",
+      "name": "Sun Peaks",
+      "lat": 50.884,
+      "lon": -119.885,
+      "summit_m": 2080,
+      "pinned_stations": [],
+      "report_url": "https://www.sunpeaksresort.com/ski-ride/weather-conditions-cams/weather-snow-report"
+    },
+    {
+      "id": "fernie",
+      "name": "Fernie",
+      "lat": 49.463,
+      "lon": -115.087,
+      "summit_m": 2134,
+      "pinned_stations": [],
+      "report_url": "https://skifernie.com/conditions/snow-report/"
+    }
+  ]
+}
