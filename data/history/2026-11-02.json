@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-02T03:42:04.902390+00:00",
+ "generated": "2026-11-02T04:40:30.710195+00:00",
  "resorts": [
   {
    "id": "revelstoke",
@@ -10,39 +10,33 @@
      "depth": null,
      "d24": null,
      "d7": null,
-     "swe": null
+     "swe": 26
     },
     {
-     "id": "2A34P",
-     "depth": 13,
-     "d24": 1,
-     "d7": 4,
-     "swe": 10
+     "id": "1F04P",
+     "depth": 24,
+     "d24": -1,
+     "d7": 11,
+     "swe": 53
     }
    ]
   },
   {
    "id": "whistler",
-   "resort": {
-    "new24": 0,
-    "new48": 0,
-    "new7d": 0,
-    "base": 0,
-    "season": 0
-   },
+   "resort": {},
    "stations": [
     {
      "id": "3A20P",
-     "depth": 10,
-     "d24": -1,
-     "d7": 10,
+     "depth": 11,
+     "d24": 0,
+     "d7": 11,
      "swe": 20
     },
     {
      "id": "3A25P",
      "depth": 11,
-     "d24": 0,
-     "d7": 3,
+     "d24": 1,
+     "d7": 1,
      "swe": 10
     }
    ]
@@ -52,8 +46,9 @@
    "resort": {
     "new24": 9,
     "new7d": 24,
-    "base": 9,
-    "season": 24
+    "base": 21,
+    "season": 24,
+    "updated": "October 29, 2026"
    },
    "stations": [
     {
@@ -68,7 +63,7 @@
      "depth": 26,
      "d24": 1,
      "d7": 26,
-     "swe": 42
+     "swe": 41
     }
    ]
   },
@@ -77,38 +72,44 @@
    "resort": {},
    "stations": [
     {
-     "id": "1F07P",
+     "id": "1C32P",
      "depth": 0,
      "d24": -1,
-     "d7": -1,
-     "swe": null
+     "d7": -2,
+     "swe": 11
     },
     {
-     "id": "1C47P",
-     "depth": 0,
-     "d24": 0,
-     "d7": 0,
-     "swe": null
+     "id": "1F04P",
+     "depth": 24,
+     "d24": -1,
+     "d7": 11,
+     "swe": 53
     }
    ]
   },
   {
    "id": "fernie",
-   "resort": {},
+   "resort": {
+    "new24": 35,
+    "new48": 0,
+    "new7d": 35,
+    "base": 18,
+    "season": 35
+   },
    "stations": [
-    {
-     "id": "2C21P",
-     "depth": 2,
-     "d24": -1,
-     "d7": -1,
-     "swe": null
-    },
     {
      "id": "2C09Q",
      "depth": 6,
      "d24": -1,
      "d7": 6,
      "swe": 28
+    },
+    {
+     "id": "2C10P",
+     "depth": 1,
+     "d24": -3,
+     "d7": -3,
+     "swe": 12
     }
    ]
   }
