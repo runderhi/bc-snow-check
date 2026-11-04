@@ -1,0 +1,118 @@
+{
+ "generated": "2026-11-04T20:52:55.823276+00:00",
+ "resorts": [
+  {
+   "id": "revelstoke",
+   "resort": {},
+   "stations": [
+    {
+     "id": "2A06P",
+     "depth": null,
+     "d24": null,
+     "d7": null,
+     "swe": 26
+    },
+    {
+     "id": "1F04P",
+     "depth": 20,
+     "d24": -2,
+     "d7": -6,
+     "swe": 53
+    }
+   ]
+  },
+  {
+   "id": "whistler",
+   "resort": {},
+   "stations": [
+    {
+     "id": "3A20P",
+     "depth": 7,
+     "d24": -2,
+     "d7": -9,
+     "swe": 17
+    },
+    {
+     "id": "3A25P",
+     "depth": 0,
+     "d24": -4,
+     "d7": -11,
+     "swe": 6
+    }
+   ]
+  },
+  {
+   "id": "bigwhite",
+   "resort": {
+    "new24": 0,
+    "new7d": 24,
+    "base": 10,
+    "season": 24,
+    "updated": "November 2, 2026"
+   },
+   "stations": [
+    {
+     "id": "2F05P",
+     "depth": 23,
+     "d24": -2,
+     "d7": -19,
+     "swe": 32
+    },
+    {
+     "id": "2E07P",
+     "depth": 20,
+     "d24": -3,
+     "d7": -13,
+     "swe": 36
+    }
+   ]
+  },
+  {
+   "id": "sunpeaks",
+   "resort": {},
+   "stations": [
+    {
+     "id": "2F10P",
+     "depth": 22,
+     "d24": 0,
+     "d7": -3,
+     "swe": 70
+    },
+    {
+     "id": "1C32P",
+     "depth": 2,
+     "d24": -2,
+     "d7": -8,
+     "swe": 3
+    }
+   ]
+  },
+  {
+   "id": "fernie",
+   "resort": {
+    "new24": 0,
+    "new48": 0,
+    "new7d": 10,
+    "base": 14,
+    "season": 35,
+    "updated": "Nov 4, 2026"
+   },
+   "stations": [
+    {
+     "id": "2C09Q",
+     "depth": 5,
+     "d24": -1,
+     "d7": -4,
+     "swe": 28
+    },
+    {
+     "id": "2C10P",
+     "depth": 2,
+     "d24": 0,
+     "d7": -5,
+     "swe": 11
+    }
+   ]
+  }
+ ]
+}
