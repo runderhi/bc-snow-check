@@ -572,6 +572,7 @@ def main():
         flag, note = agreement(rep, primary)
         resorts.append({
             "id": r["id"], "name": r["name"], "summit_m": r.get("summit_m"),
+            "report_site": r.get("report_site"), "report_elev_m": r.get("report_elev_m"),
             "report_url": r["report_url"], "local_links": r.get("local_links", []),
             "stations": stns, "avalanche": avcan_for(r, areas, products) if areas else {"status": "unavailable"},
             "resort": rep, "agreement": flag, "agreement_note": note,

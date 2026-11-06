@@ -27,6 +27,14 @@ def cm(v, signed=False):
     return f"{'+' if signed and v > 0 else ''}{v} cm"
 
 
+def elev(m, where="", missing=""):
+    """Elevation in metres and feet, on its own line under a summary-table value."""
+    if m is None:
+        return f'<span class="el">{e(missing)}</span>' if missing else ""
+    return (f'<span class="el" title="{e(where)}">{round(m):,}&nbsp;m · '
+            f'{round(m * 3.28084):,}&nbsp;ft</span>')
+
+
 def when(iso):
     try:
         return datetime.fromisoformat(iso).astimezone(PT).strftime("%a %b %-d, %-I:%M %p")
@@ -137,10 +145,14 @@ def summary(resorts):
         s = next((x for x in r["stations"] if x.get("depth") is not None), {})
         lbl, cls = AGREE.get(r.get("agreement"), ("—", "na"))
         rep = r["resort"]
+        stn_elev = elev(s.get("elev"), f'{s.get("name")} ({s.get("id")})') if s else ""
+        rep_elev = elev(r.get("report_elev_m"), r.get("report_site"), missing="not published")
         rows.append(f'<tr><td><a href="#{e(r["id"])}">{e(r["name"])}</a></td>'
-                    f'<td>{cm(s.get("depth"))} <span class="chg">{cm(s.get("d24"), True) if s.get("d24") is not None else ""}</span></td>'
-                    f'<td>{cm(rep.get("base"))}</td><td>{cm(rep.get("new24"))}</td><td class="{cls}">{lbl}</td></tr>')
-    return ('<table class="sum"><thead><tr><th>Resort</th><th>Station depth (24h)</th><th>Resort base</th>'
+                    f'<td>{cm(s.get("depth"))} <span class="chg">{cm(s.get("d24"), True) if s.get("d24") is not None else ""}</span>{stn_elev}</td>'
+                    f'<td>{cm(rep.get("base"))}{rep_elev}</td>'
+                    f'<td>{cm(rep.get("new24"))}</td><td class="{cls}">{lbl}</td></tr>')
+    return ('<table class="sum"><thead><tr><th>Resort</th><th>Station depth (24h)<br>at elevation</th>'
+            '<th>Resort base<br>measured at</th>'
             '<th>Resort new 24h</th><th>Agreement</th></tr></thead><tbody>' + "".join(rows) + "</tbody></table>")
 
 
@@ -168,6 +180,7 @@ a{{color:var(--accent);text-decoration:none}}.sub,.note,.src,.agree{{color:var(-
 .sum{{width:100%;border-collapse:collapse;background:var(--card);border-radius:12px;overflow:hidden;font-size:14px;margin-bottom:16px}}
 .sum th{{text-align:left;font-weight:500;color:var(--sub);font-size:12px;padding:8px 10px;border-bottom:1px solid var(--line)}}
 .sum td{{padding:9px 10px;border-top:1px solid var(--line)}}.chg{{color:var(--ok);font-size:12px;white-space:nowrap}}.sum td:nth-child(n+2){{white-space:nowrap}}
+.el{{display:block;color:var(--sub);font-size:12px;white-space:normal}}
 .ok{{color:var(--ok)}}.warn,.warn-t{{color:var(--warn)}}.info{{color:var(--info)}}
 .card{{background:var(--card);border-radius:12px;padding:14px 16px;margin-bottom:14px;border:1px solid var(--line)}}
 .head{{display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:12px}}

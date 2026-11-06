@@ -9,6 +9,8 @@
       "lat": 50.958,
       "lon": -118.163,
       "summit_m": 2225,
+      "report_site": "Ripper plot",
+      "report_elev_m": 1950,
       "pinned_stations": [
         "2A06P"
       ],
@@ -26,6 +28,8 @@
       "lat": 50.059,
       "lon": -122.957,
       "summit_m": 2284,
+      "report_site": "Pig Alley",
+      "report_elev_m": 1650,
       "pinned_stations": [
         "3A20P"
       ],
@@ -43,6 +47,8 @@
       "lat": 49.725,
       "lon": -118.932,
       "summit_m": 2319,
+      "report_site": "Snow plot",
+      "report_elev_m": 2025,
       "pinned_stations": [],
       "value_side": "after",
       "report_url": "https://www.bigwhite.com/mountain-conditions/daily-snow-report",
@@ -77,6 +83,8 @@
       "lat": 49.463,
       "lon": -115.087,
       "summit_m": 2134,
+      "report_site": "Bear Weather Plot",
+      "report_elev_m": 1615,
       "pinned_stations": [
         "2C09Q"
       ],
