@@ -10,13 +10,13 @@
  <div class="live_temperature__condition">
  <span class="icon-weather-windy c78__conditions--v1 live_temperature__icon" aria-hidden="true"></span>
  <span class="c78__conditions--v1 uppercase">Winds: </span>
- <span class="live_temperature__us_only c78__conditions--v2"> 44 mph</span>
- <span class="live_temperature__international_only c78__conditions--v2">71 km/h</span>
+ <span class="live_temperature__us_only c78__conditions--v2"> 42 mph</span>
+ <span class="live_temperature__international_only c78__conditions--v2">69 km/h</span>
  </div>
  <hr class="lower_separator">
  <div class="live_temperature__last_updated c78__conditions--v2">
  <span class="icon-weather-clock live_temperature__clock_icon" aria-hidden="true"></span>
- Updated: 0 hrs -37 min ago
+ Updated: 0 hrs -29 min ago
  </div>
  </div>
  <div class="col-xs-12 col-sm-6 col-lg-3 live_temperature__station_container">
@@ -37,12 +37,12 @@
  <span class="icon-weather-windy c78__conditions--v1 live_temperature__icon" aria-hidden="true"></span>
  <span class="c78__conditions--v1 uppercase">Winds: </span>
  <span class="live_temperature__us_only c78__conditions--v2"> 11 mph</span>
- <span class="live_temperature__international_only c78__conditions--v2">18 km/h</span>
+ <span class="live_temperature__international_only c78__conditions--v2">19 km/h</span>
  </div>
  <hr class="lower_separator">
  <div class="live_temperature__last_updated c78__conditions--v2">
  <span class="icon-weather-clock live_temperature__clock_icon" aria-hidden="true"></span>
- Updated: 0 hrs -37 min ago
+ Updated: 0 hrs -29 min ago
  </div>
  </div>
  <div class="col-xs-12 col-sm-6 col-lg-3 live_temperature__station_container">
@@ -68,7 +68,7 @@
  <hr class="lower_separator">
  <div class="live_temperature__last_updated c78__conditions--v2">
  <span class="icon-weather-clock live_temperature__clock_icon" aria-hidden="true"></span>
- Updated: 0 hrs -37 min ago
+ Updated: 0 hrs -29 min ago
  </div>
  </div>
  <div class="col-xs-12 col-sm-6 col-lg-3 live_temperature__station_container">
@@ -94,7 +94,7 @@
  <hr class="lower_separator">
  <div class="live_temperature__last_updated c78__conditions--v2">
  <span class="icon-weather-clock live_temperature__clock_icon" aria-hidden="true"></span>
- Updated: 0 hrs -37 min ago
+ Updated: 0 hrs -29 min ago
  </div>
  </div>
  </div>
