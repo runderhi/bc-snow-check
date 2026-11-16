@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-15T19:54:00.088130+00:00",
+ "generated": "2026-11-16T23:27:43.159292+00:00",
  "resorts": [
   {
    "id": "revelstoke",
@@ -21,27 +21,27 @@
      "elev": 1850.0,
      "dist_km": 9,
      "depth": null,
-     "swe": 71,
-     "swe_d24": 9,
-     "swe_d7": 21,
-     "time": "2026-11-15T18:00:00+00:00",
-     "temp": 0.0,
-     "age_h": 1.9
+     "swe": 81,
+     "swe_d24": 10,
+     "swe_d7": 32,
+     "time": "2026-11-16T20:00:00+00:00",
+     "temp": -0.8,
+     "age_h": 3.5
     },
     {
      "id": "1F04P",
      "name": "Enderby",
      "elev": 1950.0,
      "dist_km": 63,
-     "depth": 35,
-     "swe": 105,
-     "swe_d24": 4,
-     "swe_d7": 32,
-     "time": "2026-11-15T18:00:00+00:00",
-     "temp": -0.2,
-     "age_h": 1.9,
-     "d24": 1,
-     "d7": 7,
+     "depth": 37,
+     "swe": 119,
+     "swe_d24": 13,
+     "swe_d7": 45,
+     "time": "2026-11-16T21:00:00+00:00",
+     "temp": -3.9,
+     "age_h": 2.5,
+     "d24": 2,
+     "d7": 10,
      "daily": {
       "2026-10-01": 2,
       "2026-10-02": 0,
@@ -88,7 +88,8 @@
       "2026-11-12": 30,
       "2026-11-13": 29,
       "2026-11-14": 33,
-      "2026-11-15": 35
+      "2026-11-15": 35,
+      "2026-11-16": 37
      }
     }
    ],
@@ -109,15 +110,15 @@
     "avalanche": null
    },
    "resort": {
-    "new24": 13,
-    "new48": 24,
-    "new7d": 52,
-    "base": 32,
-    "season": 100,
+    "new24": 1,
+    "new48": 29,
+    "new7d": 71,
+    "base": 40,
+    "season": 140,
     "status": "ok"
    },
    "agreement": "resort_higher",
-   "agreement_note": "7-day: resort 52 cm new vs station +7 cm depth"
+   "agreement_note": "7-day: resort 71 cm new vs station +10 cm depth"
   },
   {
    "id": "whistler",
@@ -138,15 +139,15 @@
      "name": "Tenquille Lake",
      "elev": 1680.0,
      "dist_km": 53,
-     "depth": 40,
-     "swe": 89,
-     "swe_d24": 20,
-     "swe_d7": 20,
-     "time": "2026-11-15T19:00:00+00:00",
-     "temp": 0.2,
-     "age_h": 0.9,
-     "d24": 14,
-     "d7": -1,
+     "depth": 43,
+     "swe": 95,
+     "swe_d24": 3,
+     "swe_d7": 15,
+     "time": "2026-11-16T22:00:00+00:00",
+     "temp": -0.9,
+     "age_h": 1.5,
+     "d24": 1,
+     "d7": 0,
      "daily": {
       "2026-10-01": 0,
       "2026-10-02": 0,
@@ -188,7 +189,8 @@
       "2026-11-12": 28,
       "2026-11-13": 27,
       "2026-11-14": 27,
-      "2026-11-15": 40
+      "2026-11-15": 40,
+      "2026-11-16": 43
      }
     },
     {
@@ -197,12 +199,12 @@
      "elev": 1017.0,
      "dist_km": 14,
      "depth": 1,
-     "swe": 4,
-     "swe_d24": 0,
-     "swe_d7": -2,
-     "time": "2026-11-15T18:00:00+00:00",
-     "temp": 4.2,
-     "age_h": 1.9,
+     "swe": 2,
+     "swe_d24": -1,
+     "swe_d7": -3,
+     "time": "2026-11-16T20:00:00+00:00",
+     "temp": 2.6,
+     "age_h": 3.5,
      "d24": 0,
      "d7": -1,
      "daily": {
@@ -251,7 +253,8 @@
       "2026-11-12": 1,
       "2026-11-13": 1,
       "2026-11-14": 2,
-      "2026-11-15": 1
+      "2026-11-15": 1,
+      "2026-11-16": 1
      }
     }
    ],
@@ -272,15 +275,15 @@
     "avalanche": null
    },
    "resort": {
-    "new24": 0,
-    "new48": 0,
-    "new7d": 10,
-    "base": 13,
-    "season": 10,
+    "new24": 19,
+    "new48": 19,
+    "new7d": 24,
+    "base": 43,
+    "season": 29,
     "status": "ok"
    },
    "agreement": "resort_higher",
-   "agreement_note": "7-day: resort 10 cm new vs station +0 cm depth"
+   "agreement_note": "7-day: resort 24 cm new vs station +0 cm depth"
   },
   {
    "id": "bigwhite",
@@ -301,15 +304,15 @@
      "name": "Mission Creek",
      "elev": 1780.0,
      "dist_km": 24,
-     "depth": 14,
-     "swe": 44,
-     "swe_d24": 0,
-     "swe_d7": 5,
-     "time": "2026-11-15T18:00:00+00:00",
-     "temp": 1.0,
-     "age_h": 1.9,
-     "d24": -2,
-     "d7": -10,
+     "depth": 21,
+     "swe": 45,
+     "swe_d24": 1,
+     "swe_d7": 4,
+     "time": "2026-11-16T21:00:00+00:00",
+     "temp": -2.4,
+     "age_h": 2.5,
+     "d24": 6,
+     "d7": 0,
      "daily": {
       "2026-10-01": 2,
       "2026-10-02": 1,
@@ -356,7 +359,8 @@
       "2026-11-12": 17,
       "2026-11-13": 15,
       "2026-11-14": 15,
-      "2026-11-15": 14
+      "2026-11-15": 15,
+      "2026-11-16": 21
      }
     },
     {
@@ -364,15 +368,15 @@
      "name": "Grano Creek",
      "elev": 1870.0,
      "dist_km": 27,
-     "depth": 18,
-     "swe": 39,
-     "swe_d24": -3,
-     "swe_d7": -3,
-     "time": "2026-11-15T18:00:00+00:00",
-     "temp": 0.0,
-     "age_h": 1.9,
+     "depth": 21,
+     "swe": 44,
+     "swe_d24": 3,
+     "swe_d7": 2,
+     "time": "2026-11-16T21:00:00+00:00",
+     "temp": -0.2,
+     "age_h": 2.5,
      "d24": 2,
-     "d7": -4,
+     "d7": -2,
      "daily": {
       "2026-10-01": 0,
       "2026-10-02": 0,
@@ -419,7 +423,8 @@
       "2026-11-12": 16,
       "2026-11-13": 16,
       "2026-11-14": 15,
-      "2026-11-15": 18
+      "2026-11-15": 19,
+      "2026-11-16": 21
      }
     }
    ],
@@ -440,15 +445,15 @@
     "avalanche": null
    },
    "resort": {
-    "new24": 0,
-    "new7d": 3,
-    "base": 9,
-    "season": 30,
-    "updated": "November 13, 2026",
+    "new24": 4,
+    "new7d": 7,
+    "base": 4,
+    "season": 34,
+    "updated": "November 16, 2026",
     "status": "ok"
    },
    "agreement": "close",
-   "agreement_note": "7-day: resort 3 cm new vs station +0 cm depth"
+   "agreement_note": "7-day: resort 7 cm new vs station +0 cm depth"
   },
   {
    "id": "sunpeaks",
@@ -469,15 +474,15 @@
      "name": "Silver Star Mountain",
      "elev": 1840.0,
      "dist_km": 81,
-     "depth": 23,
-     "swe": 92,
-     "swe_d24": 1,
-     "swe_d7": 11,
-     "time": "2026-11-15T19:00:00+00:00",
-     "temp": 0.1,
-     "age_h": 0.9,
-     "d24": -1,
-     "d7": -3,
+     "depth": 27,
+     "swe": 100,
+     "swe_d24": 8,
+     "swe_d7": 19,
+     "time": "2026-11-16T22:00:00+00:00",
+     "temp": -2.6,
+     "age_h": 1.5,
+     "d24": 3,
+     "d7": 2,
      "daily": {
       "2026-10-01": 0,
       "2026-10-02": 0,
@@ -524,7 +529,8 @@
       "2026-11-12": 23,
       "2026-11-13": 23,
       "2026-11-14": 24,
-      "2026-11-15": 23
+      "2026-11-15": 24,
+      "2026-11-16": 27
      }
     },
     {
@@ -532,15 +538,15 @@
      "name": "Deadman River",
      "elev": 1460.0,
      "dist_km": 56,
-     "depth": 2,
+     "depth": 3,
      "swe": 2,
      "swe_d24": 1,
      "swe_d7": 0,
-     "time": "2026-11-15T18:00:00+00:00",
-     "temp": 4.8,
-     "age_h": 1.9,
-     "d24": -2,
-     "d7": 0,
+     "time": "2026-11-16T21:00:00+00:00",
+     "temp": 2.4,
+     "age_h": 2.5,
+     "d24": 1,
+     "d7": -1,
      "daily": {
       "2026-10-01": 0,
       "2026-10-02": 0,
@@ -587,7 +593,8 @@
       "2026-11-12": 3,
       "2026-11-13": 2,
       "2026-11-14": 2,
-      "2026-11-15": 2
+      "2026-11-15": 3,
+      "2026-11-16": 3
      }
     }
    ],
@@ -608,10 +615,14 @@
     "avalanche": null
    },
    "resort": {
-    "status": "No snow numbers published"
+    "new24": 0,
+    "new48": 1,
+    "new7d": 2,
+    "base": 24,
+    "status": "ok"
    },
-   "agreement": null,
-   "agreement_note": "Resort hasn't published new-snow numbers"
+   "agreement": "close",
+   "agreement_note": "7-day: both near zero"
   },
   {
    "id": "fernie",
@@ -632,15 +643,15 @@
      "name": "Morrissey Ridge",
      "elev": 1860.0,
      "dist_km": 8,
-     "depth": 0,
-     "swe": 14,
-     "swe_d24": 1,
-     "swe_d7": -8,
-     "time": "2026-11-15T19:00:00+00:00",
-     "temp": 0.8,
-     "age_h": 0.9,
-     "d24": 0,
-     "d7": -2,
+     "depth": 7,
+     "swe": 28,
+     "swe_d24": 14,
+     "swe_d7": 6,
+     "time": "2026-11-16T21:00:00+00:00",
+     "temp": -0.2,
+     "age_h": 2.5,
+     "d24": 7,
+     "d7": 5,
      "daily": {
       "2026-10-01": 0,
       "2026-10-02": 0,
@@ -687,7 +698,8 @@
       "2026-11-12": 0,
       "2026-11-13": 0,
       "2026-11-14": 0,
-      "2026-11-15": 0
+      "2026-11-15": 0,
+      "2026-11-16": 7
      }
     },
     {
@@ -695,15 +707,15 @@
      "name": "Moyie Mountain",
      "elev": 1835.0,
      "dist_km": 55,
-     "depth": 7,
-     "swe": 4,
-     "swe_d24": 1,
-     "swe_d7": 0,
-     "time": "2026-11-15T18:00:00+00:00",
-     "temp": 0.4,
-     "age_h": 1.9,
-     "d24": 1,
-     "d7": 1,
+     "depth": 3,
+     "swe": 10,
+     "swe_d24": 6,
+     "swe_d7": 6,
+     "time": "2026-11-16T20:00:00+00:00",
+     "temp": -0.4,
+     "age_h": 3.5,
+     "d24": -4,
+     "d7": 0,
      "daily": {
       "2026-10-01": 0,
       "2026-10-02": 0,
@@ -750,7 +762,8 @@
       "2026-11-12": 6,
       "2026-11-13": 6,
       "2026-11-14": 7,
-      "2026-11-15": 7
+      "2026-11-15": 7,
+      "2026-11-16": 3
      }
     }
    ],
@@ -780,7 +793,7 @@
     "status": "ok"
    },
    "agreement": "close",
-   "agreement_note": "7-day: resort 4 cm new vs station +0 cm depth"
+   "agreement_note": "7-day: resort 4 cm new vs station +5 cm depth"
   }
  ],
  "health": [
@@ -821,8 +834,8 @@
   },
   {
    "source": "Sun Peaks resort page",
-   "ok": false,
-   "note": "loaded but no snow numbers found (rendered page); not posted yet, or parser needs an update"
+   "ok": true,
+   "note": "found new24, new48, new7d, base (page HTML)"
   },
   {
    "source": "Fernie resort page",
