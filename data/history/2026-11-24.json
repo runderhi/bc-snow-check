@@ -1,14 +1,14 @@
 {
- "generated": "2026-11-24T01:46:24.738207+00:00",
+ "generated": "2026-11-24T23:35:17.938274+00:00",
  "resorts": [
   {
    "id": "revelstoke",
    "resort": {
-    "new24": 3,
-    "new48": 17,
-    "new7d": 27,
-    "base": 40,
-    "season": 180
+    "new24": 1,
+    "new48": 2,
+    "new7d": 24,
+    "base": 39,
+    "season": 182
    },
    "stations": [
     {
@@ -16,89 +16,89 @@
      "depth": null,
      "d24": null,
      "d7": null,
-     "swe": 82
+     "swe": 83
     },
     {
      "id": "1F04P",
      "depth": 42,
-     "d24": 2,
-     "d7": 7,
-     "swe": 132
+     "d24": 0,
+     "d7": 6,
+     "swe": 135
     }
    ]
   },
   {
    "id": "whistler",
    "resort": {
-    "new24": 2,
-    "new48": 5,
-    "new7d": 5,
-    "base": 39,
-    "season": 34
+    "new24": 8,
+    "new48": 10,
+    "new7d": 13,
+    "base": 47,
+    "season": 42
    },
    "stations": [
     {
      "id": "1D06P",
-     "depth": 43,
-     "d24": 20,
-     "d7": 0,
-     "swe": 95
+     "depth": 65,
+     "d24": 23,
+     "d7": 26,
+     "swe": 121
     },
     {
      "id": "3A20P",
-     "depth": 9,
-     "d24": 2,
-     "d7": 8,
-     "swe": 20
+     "depth": 22,
+     "d24": 15,
+     "d7": 22,
+     "swe": 51
     }
    ]
   },
   {
    "id": "bigwhite",
    "resort": {
-    "new24": 2,
-    "new7d": 2,
-    "base": 5,
-    "season": 36,
-    "updated": "November 23, 2026"
+    "new24": 3,
+    "new7d": 5,
+    "base": 7,
+    "season": 39,
+    "updated": "November 24, 2026"
    },
    "stations": [
     {
      "id": "2F05P",
-     "depth": 21,
-     "d24": -1,
-     "d7": 0,
-     "swe": 47
+     "depth": 22,
+     "d24": 2,
+     "d7": 3,
+     "swe": 48
     },
     {
      "id": "2E07P",
-     "depth": 23,
+     "depth": 25,
      "d24": 2,
-     "d7": 1,
-     "swe": 53
+     "d7": 5,
+     "swe": 58
     }
    ]
   },
   {
    "id": "sunpeaks",
    "resort": {
-    "new24": 0,
-    "new48": 0,
-    "new7d": 0,
-    "base": 28
+    "new24": 8,
+    "new48": 8,
+    "new7d": 8,
+    "base": 35
    },
    "stations": [
     {
      "id": "2F10P",
-     "depth": 30,
-     "d24": 0,
-     "d7": 4,
-     "swe": 101
+     "depth": 34,
+     "d24": 4,
+     "d7": 9,
+     "swe": 105
     },
     {
      "id": "1C32P",
      "depth": 3,
-     "d24": -1,
+     "d24": 0,
      "d7": 0,
      "swe": 3
     }
@@ -108,25 +108,25 @@
    "id": "fernie",
    "resort": {
     "new24": 7,
-    "new48": 11,
-    "new7d": 25,
+    "new48": 7,
+    "new7d": 18,
     "base": 10,
     "season": 64,
-    "updated": "Nov 23, 2026"
+    "updated": "Nov 24, 2026"
    },
    "stations": [
     {
      "id": "2C09Q",
-     "depth": 14,
-     "d24": 1,
-     "d7": 8,
+     "depth": 13,
+     "d24": -1,
+     "d7": 3,
      "swe": 40
     },
     {
      "id": "2C10P",
-     "depth": 10,
+     "depth": 9,
      "d24": 0,
-     "d7": 4,
+     "d7": 3,
      "swe": 21
     }
    ]
