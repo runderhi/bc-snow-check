@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-25T23:12:22.620501+00:00",
+ "generated": "2026-11-26T23:10:16.267510+00:00",
  "resorts": [
   {
    "id": "revelstoke",
@@ -21,11 +21,11 @@
      "elev": 1850.0,
      "dist_km": 9,
      "depth": null,
-     "swe": 93,
-     "swe_d24": 10,
-     "swe_d7": 12,
-     "time": "2026-11-25T21:00:00+00:00",
-     "temp": -1.6,
+     "swe": 109,
+     "swe_d24": 16,
+     "swe_d7": 29,
+     "time": "2026-11-26T21:00:00+00:00",
+     "temp": -0.3,
      "age_h": 2.2
     },
     {
@@ -33,15 +33,15 @@
      "name": "Enderby",
      "elev": 1950.0,
      "dist_km": 63,
-     "depth": 48,
-     "swe": 141,
-     "swe_d24": 7,
-     "swe_d7": 19,
-     "time": "2026-11-25T21:00:00+00:00",
-     "temp": -2.1,
+     "depth": 58,
+     "swe": 160,
+     "swe_d24": 19,
+     "swe_d7": 41,
+     "time": "2026-11-26T21:00:00+00:00",
+     "temp": -2.0,
      "age_h": 2.2,
-     "d24": 7,
-     "d7": 11,
+     "d24": 10,
+     "d7": 21,
      "daily": {
       "2026-10-01": 2,
       "2026-10-02": 0,
@@ -98,7 +98,8 @@
       "2026-11-22": 40,
       "2026-11-23": 42,
       "2026-11-24": 44,
-      "2026-11-25": 48
+      "2026-11-25": 48,
+      "2026-11-26": 58
      }
     }
    ],
@@ -106,28 +107,28 @@
     "status": "ok",
     "region": "Badshot-Battle-Blue River-Central Selkirk-Clemina-Esplanade-Goat-Gold-Jordan-North Monashee-North Selkirk-Premier-Robson",
     "region_note": null,
-    "url": "https://avalanche.ca/forecasts/f3ce4ecd-add8-47de-9d34-f1c82f27d34f_cc0488b77181621ea6539a8aae5058a9d7f9228455cdb06fd04fc3da767c171f",
+    "url": "https://avalanche.ca/forecasts/6d860330-abf6-47d7-b178-829fa60838ad_cc0488b77181621ea6539a8aae5058a9d7f9228455cdb06fd04fc3da767c171f",
     "danger": {
      "alp": "2 - Moderate",
      "tln": "2 - Moderate",
      "btl": "1 - Low"
     },
     "no_rating": false,
-    "highlights": "Danger is increasing as an ongoing storm is pushing more terrain over the threshold for avalanches. Where buried rocks and stumps are no longer obvious, avalanches are possible.",
-    "snowpack": "The ongoing storm is starting to pile fresh snow on top of potentially weak layers formed during the period of no precipitation and colder temperatures. Sugary facets and feathery surface hoar were reported in some areas during the weekend of November 21st. It's unknown how widespread these weak layers are. Due to below average snowfall, direct observations are minimal. We expect to find 50 to 80 cm of snow around\u2026",
-    "weather": "Wednesday Night Cloudy with snow. 3 to 10 cm of new snow. 45-75 km/h south ridgetop wind, with the highest speeds in the Monashees. Treeline temperature -2 \u00b0C. Freezing level 1600 m, snow level 1000 m. Thursday Cloudy with snow. 5 to 20 cm of new snow. 45-60 km/h southwest ridgetop wind. Treeline temperature -2 \u00b0C. Freezing level 1700 m, snow level 1200 m. Friday Mostly cloudy with snow. 10 cm of new snow. 40 km/h\u2026",
+    "highlights": "While it's exciting to see it snowing up high, mellow travel choices would be wise. Approaches are rugged, and smooth, snow filled, inviting slopes are where avalanches are most likely.",
+    "snowpack": "Expect to find 20-40 cm of fresh snow on top of potentially weak layers formed during the cold, dry period in late November. Sugary facets and feathery surface hoar were reported in some areas during the weekend of November 21st. It's unknown how widespread or reactive these layers are. Due to below average snowfall, direct observations are minimal. We expect to find 50 to 80 cm of snow around treeline, and even\u2026",
+    "weather": "Thursday Night Cloudy with snow. 5 to 15 cm of new snow, with the higher amounts mostly being north of Highway 1. 35-55 km/h southwest ridgetop wind. Treeline temperature -2 \u00b0C. Freezing level 1700 m, snow level 1200 m. Friday Cloudy with flurries. 2 to 4 cm of new snow, with hotspots of 8 to 10 cm north of Highway 1. 30 km/h west ridgetop wind. Treeline temperature -4 \u00b0C. Freezing level 1500 m, snow level 800 m.\u2026",
     "avalanche": "Reports are minimal, but human-triggered avalanches are possible where you see a smooth snow surface instead of obvious rough ground under a bit of snow. In neighboring Glacier National Park, small avalanches were reported on steep, smooth, alpine slopes during stormy periods in mid-November."
    },
    "resort": {
-    "new24": 7,
-    "new48": 36,
-    "new7d": 58,
-    "base": 53,
-    "season": 217,
+    "new24": 11,
+    "new48": 30,
+    "new7d": 61,
+    "base": 72,
+    "season": 220,
     "status": "ok"
    },
    "agreement": "resort_higher",
-   "agreement_note": "7-day: resort 58 cm new vs station +11 cm depth"
+   "agreement_note": "7-day: resort 61 cm new vs station +21 cm depth"
   },
   {
    "id": "whistler",
@@ -148,15 +149,15 @@
      "name": "Tenquille Lake",
      "elev": 1680.0,
      "dist_km": 53,
-     "depth": 86,
-     "swe": 158,
-     "swe_d24": 39,
-     "swe_d7": 64,
-     "time": "2026-11-25T22:00:00+00:00",
-     "temp": 1.0,
+     "depth": 98,
+     "swe": 194,
+     "swe_d24": 36,
+     "swe_d7": 102,
+     "time": "2026-11-26T22:00:00+00:00",
+     "temp": 0.5,
      "age_h": 1.2,
-     "d24": 23,
-     "d7": 46,
+     "d24": 12,
+     "d7": 59,
      "daily": {
       "2026-10-01": 0,
       "2026-10-02": 0,
@@ -208,7 +209,8 @@
       "2026-11-22": 40,
       "2026-11-23": 42,
       "2026-11-24": 65,
-      "2026-11-25": 86
+      "2026-11-25": 85,
+      "2026-11-26": 98
      }
     },
     {
@@ -216,15 +218,15 @@
      "name": "Callaghan Creek",
      "elev": 1017.0,
      "dist_km": 14,
-     "depth": 15,
-     "swe": 55,
-     "swe_d24": 6,
-     "swe_d7": 54,
-     "time": "2026-11-25T21:00:00+00:00",
-     "temp": 4.0,
+     "depth": 10,
+     "swe": 46,
+     "swe_d24": -9,
+     "swe_d7": 38,
+     "time": "2026-11-26T21:00:00+00:00",
+     "temp": 3.3,
      "age_h": 2.2,
-     "d24": -6,
-     "d7": 15,
+     "d24": -5,
+     "d7": 10,
      "daily": {
       "2026-10-01": 0,
       "2026-10-02": 1,
@@ -281,36 +283,37 @@
       "2026-11-22": 3,
       "2026-11-23": 8,
       "2026-11-24": 22,
-      "2026-11-25": 15
+      "2026-11-25": 15,
+      "2026-11-26": 10
      }
     }
    ],
    "avalanche": {
     "status": "ok",
-    "region": "Brandywine-Garibaldi-Homathko-Powell River-Sky Pilot-Spearhead-Tantalus",
+    "region": "Brandywine-Garibaldi-Homathko-Powell River-Spearhead-Tantalus",
     "region_note": null,
-    "url": "https://avalanche.ca/forecasts/0d68a610-d4a0-4569-b802-a9ee66eb4f7e_f88bb4126b4ed477f7c4e9b2f2bc3275170e881924475c26096bc692261d5d4d",
+    "url": "https://avalanche.ca/forecasts/c1a358ae-9cea-4f52-91b8-3f780b9524c9_6832021ccd53924459d6723ac8ec1fb45577deff7f5fef50b2c8ebd0b66e671d",
     "danger": {
-     "alp": "4 - High",
+     "alp": "3 - Considerable",
      "tln": "3 - Considerable",
      "btl": "1 - Low"
     },
     "no_rating": false,
-    "highlights": "When an avalanche professional contacts you to say \"this layer is scary\", you know it's serious. We're dealing with an unforgiving early-season snowpack. Avoid avalanche terrain!",
-    "snowpack": "50 - 90 cm of new snow may accumulate by end-of-day Thursday at treeline and above. Expect amounts that increase with elevation and a very dangerous storm slab problem in the alpine. In the alpine and at treeline, strong to extreme winds have already redistributed 40 - 60 cm of snow from the early week storm, creating reactive slabs over the surface hoar and 15 - 30 cm of faceted grains that made up the pre-storm\u2026",
-    "weather": "Wednesday Night Cloudy with heavy snowfall bringing. 30 to 60 cm of new snow. Rain below about 1100 m. 75 km/h south ridgetop wind. Treeline temperature 0 \u00b0C. Freezing level 1700 to 1800 m Thursday Cloudy with easing snowfall bringing 20 to 30 cm of new snow. Rain below about 1300 m. 50 to 60 km/h southwest ridgetop wind, easing. Treeline temperature around 0 \u00b0C. Freezing level 1700 to 1800 m. Friday Cloudy with\u2026",
-    "avalanche": "Widespread avalanches to size 1.5 were observed in control work below 1800 m in the Whistler area on Tuesday. Several of these were triggered sympathetically or remotely, from up to 50 m away. Radar also detected several size 2 and 2.5 releases in higher terrain. These avalanches often released in low-angle terrain, failing on the faceted grains found below our wind-transported new snow. Both the mid-November crust\u2026"
+    "highlights": "So much for easing into avalanche season. The remote triggers, metre-plus fracture lines, and low angle releases this persistent slab problem is producing means it's time for you to lock in.",
+    "snowpack": "A final 10 to 20 cm of new snow may accumulate by midday Friday, bringing this week's storm totals to roughtly 60 - 100 cm at treeline and alpine. Amounts increase significantly with elevation. Below about 1900 m, all but the most recent snow is moist. Strong to extreme southerly winds have been redistributing this storm snow and creating touchy slabs over the surface hoar and 15 - 30 cm of faceted grains that made\u2026",
+    "weather": "Thursday Night Cloudy with a final storm pulse bringing 5 to 15 cm of new snow above about 1100 m. 40 km/h southwest ridgetop wind. Treeline temperature 0 to -1 \u00b0C. Freezing level falling from 1600 m to 1300 m. Friday Mostly cloudy with easing flurries finishing with 5 to 10 cm of new snow above 1000 m. 25 to 40 km/h west ridgetop wind, easing. Treeline temperature -1 \u00b0C. Freezing level 1500 m. Saturday Mostly\u2026",
+    "avalanche": "Control work in the Whistler area Wednesday was alarmingly productive, with size 1 to 2 explosives results at treeline in the morning and in the 1800 - 1950 m range in the afternoon. Two remote triggers were observed, a size 3 and a size 2, both triggered from 3 to 5 m away in flat terrain. Avalanches produced crown fractures up to 1.5 m high, averaging 1 m. Everything failed on the November weak layer described in\u2026"
    },
    "resort": {
-    "new24": 32,
-    "new48": 58,
-    "new7d": 63,
-    "base": 92,
-    "season": 92,
+    "new24": 27,
+    "new48": 59,
+    "new7d": 90,
+    "base": 104,
+    "season": 119,
     "status": "ok"
    },
    "agreement": "close",
-   "agreement_note": "7-day: resort 63 cm new vs station +46 cm depth"
+   "agreement_note": "7-day: resort 90 cm new vs station +59 cm depth"
   },
   {
    "id": "bigwhite",
@@ -331,15 +334,15 @@
      "name": "Mission Creek",
      "elev": 1780.0,
      "dist_km": 24,
-     "depth": 21,
+     "depth": 22,
      "swe": 48,
      "swe_d24": 0,
      "swe_d7": 1,
-     "time": "2026-11-25T21:00:00+00:00",
-     "temp": -0.1,
+     "time": "2026-11-26T21:00:00+00:00",
+     "temp": -0.4,
      "age_h": 2.2,
-     "d24": -1,
-     "d7": 6,
+     "d24": 1,
+     "d7": 5,
      "daily": {
       "2026-10-01": 0,
       "2026-10-02": 0,
@@ -396,7 +399,8 @@
       "2026-11-22": 22,
       "2026-11-23": 21,
       "2026-11-24": 22,
-      "2026-11-25": 21
+      "2026-11-25": 20,
+      "2026-11-26": 22
      }
     },
     {
@@ -404,15 +408,15 @@
      "name": "Grano Creek",
      "elev": 1870.0,
      "dist_km": 27,
-     "depth": 26,
-     "swe": 60,
-     "swe_d24": 3,
-     "swe_d7": 18,
-     "time": "2026-11-25T21:00:00+00:00",
-     "temp": -1.1,
+     "depth": 36,
+     "swe": 73,
+     "swe_d24": 13,
+     "swe_d7": 27,
+     "time": "2026-11-26T21:00:00+00:00",
+     "temp": -0.1,
      "age_h": 2.2,
-     "d24": 1,
-     "d7": 5,
+     "d24": 10,
+     "d7": 15,
      "daily": {
       "2026-10-01": 0,
       "2026-10-02": 0,
@@ -469,7 +473,8 @@
       "2026-11-22": 21,
       "2026-11-23": 23,
       "2026-11-24": 25,
-      "2026-11-25": 26
+      "2026-11-25": 26,
+      "2026-11-26": 36
      }
     }
    ],
@@ -477,28 +482,28 @@
     "status": "ok",
     "region": "Bonnington-Grohman-Kokanee-Kootenay Pass-Norns-Retallack-Rossland-South Okanagan-Valhalla-Whatshan-Ymir",
     "region_note": null,
-    "url": "https://avalanche.ca/forecasts/6b6dd37d-45c7-4f7d-a30b-ebaac6e82905_0f23c8baa694da6047b905917ff75428ec8d4422697c6a7d6c297ac5ddeb4e60",
+    "url": "https://avalanche.ca/forecasts/b4854c20-09b8-4105-9fcf-f1c09a1938f6_0f23c8baa694da6047b905917ff75428ec8d4422697c6a7d6c297ac5ddeb4e60",
     "danger": {
      "alp": "1 - Low",
      "tln": "1 - Low",
      "btl": "1 - Low"
     },
     "no_rating": false,
-    "highlights": "As new snow accumulates, more terrain will become deep enough to avalanche. Use caution on steep, smooth slopes at higher elevations.",
-    "snowpack": "Up to 25 cm of new snow is expected across many areas at and above the treeline by Thursday afternoon. New snow is falling onto a shallow, early-season snowpack. Roughly 10 to 20 cm above the ground is a widespread melt-freeze crust with facets likely developing beneath. With the shallow snow and exposed ground roughness, avalanches are unlikely across most terrain. However, small avalanches are possible on steep,\u2026",
-    "weather": "Wednesday Night Cloudy with snow. 5 to 10 cm of new snow. 50 km/h southwest ridgetop wind. Treeline temperature -2 \u00b0C. Snow level 1100 m. Thursday Cloudy with snow. 5 to 15 cm of new snow. 50 km/h southwest ridgetop wind. Treeline temperature -2 \u00b0C. Snow level 1300 m. Friday Mostly cloudy with snow. 2 to 5 cm of new snow. 30 km/h west ridgetop wind. Treeline temperature -4 \u00b0C. Snow level 900 m. Saturday Partly\u2026",
+    "highlights": "The snowpack remains too shallow to avalanche in most areas. Avalanche hazard is isolated to steep, smooth slopes at higher elevations.",
+    "snowpack": "Up to 30 cm of recent snow has fallen over a shallow early-season snowpack at treeline, burying a widespread melt-freeze crust 10 to 20 cm off the ground. Weak faceted snow has likely formed around the crust in many places. Snow depths taper rapidly at lower elevations. With the shallow snow and exposed ground roughness, avalanches are unlikely across most terrain. However, small avalanches are possible on steep,\u2026",
+    "weather": "Thursday Night Cloudy with flurries. 2 to 8 cm of new snow. 40 km/h west ridgetop wind. Treeline temperature -2 \u00b0C. Snow level 1400 m. Friday Cloudy. 20 km/h west ridgetop wind. Treeline temperature -4 \u00b0C. Saturday Partly cloudy with flurries. 0 to 4 cm of new snow. 30 km/h northwest ridgetop wind. Treeline temperature -4 \u00b0C. Freezing level 1200 m, snow level 900 m. Sunday Partly cloudy with flurries. 0 to 3 cm of\u2026",
     "avalanche": "No recent avalanches have been reported, likely because the shallow snowpack remains largely below the threshold to slide. As new snow continues to accumulate, expect more terrain to become deep enough to avalanche."
    },
    "resort": {
-    "new24": 4,
-    "new7d": 9,
-    "base": 10,
-    "season": 43,
-    "updated": "November 25, 2026",
+    "new24": 14,
+    "new7d": 23,
+    "base": 25,
+    "season": 57,
+    "updated": "November 26, 2026",
     "status": "ok"
    },
-   "agreement": "close",
-   "agreement_note": "7-day: resort 9 cm new vs station +6 cm depth"
+   "agreement": "resort_higher",
+   "agreement_note": "7-day: resort 23 cm new vs station +5 cm depth"
   },
   {
    "id": "sunpeaks",
@@ -519,15 +524,15 @@
      "name": "Silver Star Mountain",
      "elev": 1840.0,
      "dist_km": 81,
-     "depth": 34,
-     "swe": 107,
-     "swe_d24": 2,
-     "swe_d7": 11,
-     "time": "2026-11-25T22:00:00+00:00",
-     "temp": -1.9,
+     "depth": 37,
+     "swe": 117,
+     "swe_d24": 10,
+     "swe_d7": 14,
+     "time": "2026-11-26T22:00:00+00:00",
+     "temp": -0.9,
      "age_h": 1.2,
-     "d24": 2,
-     "d7": 9,
+     "d24": 3,
+     "d7": 12,
      "daily": {
       "2026-10-01": 0,
       "2026-10-02": 0,
@@ -584,7 +589,8 @@
       "2026-11-22": 29,
       "2026-11-23": 30,
       "2026-11-24": 34,
-      "2026-11-25": 34
+      "2026-11-25": 34,
+      "2026-11-26": 37
      }
     },
     {
@@ -592,15 +598,15 @@
      "name": "Deadman River",
      "elev": 1460.0,
      "dist_km": 56,
-     "depth": 3,
+     "depth": 4,
      "swe": 2,
-     "swe_d24": -1,
+     "swe_d24": 0,
      "swe_d7": 0,
-     "time": "2026-11-25T21:00:00+00:00",
-     "temp": 2.1,
+     "time": "2026-11-26T21:00:00+00:00",
+     "temp": 4.5,
      "age_h": 2.2,
      "d24": 1,
-     "d7": -3,
+     "d7": 2,
      "daily": {
       "2026-10-01": 0,
       "2026-10-02": 0,
@@ -657,7 +663,8 @@
       "2026-11-22": 1,
       "2026-11-23": 3,
       "2026-11-24": 2,
-      "2026-11-25": 3
+      "2026-11-25": 3,
+      "2026-11-26": 4
      }
     }
    ],
@@ -665,7 +672,7 @@
     "status": "ok",
     "region": "Clearwater-North Okanagan-Quesnel-Shuswap",
     "region_note": null,
-    "url": "https://avalanche.ca/forecasts/c8097aae-de2d-4203-a393-4048a4500751_fd81d6f6be094ef894f6931c9e0097fc137deae7a10c62aaff8ea96a3b133553",
+    "url": "https://avalanche.ca/forecasts/f437d5b9-a5f7-4150-ade9-7f5dc3e49978_fd81d6f6be094ef894f6931c9e0097fc137deae7a10c62aaff8ea96a3b133553",
     "danger": {
      "alp": "1 - Low",
      "tln": "1 - Low",
@@ -673,19 +680,19 @@
     },
     "no_rating": false,
     "highlights": "In smooth, wind-filled gullies and bowls where buried rocks and stumps are no longer obvious, avalanches are possible. The danger may be higher in Wells Gray, look at the Blue River forecast.",
-    "snowpack": "Due to below average snowfall, direct observations are minimal. We expect to find 30 to 50 cm of snow around treeline. Expect to find less than this in wind exposed areas in the alpine. You may find up to a metre of snow in sheltered, leeward features and in cross-loaded gullies, or in glaciated terrain. Below treeline, the depth of snow rapidly decreases, with very little snow on the ground below 2000 m.",
-    "weather": "Wednesday Night Cloudy with snow. 1 to 8 cm of new snow. 80 km/h south ridgetop wind east of Quesnel, tapering as you move south to 50 km/h east of Vernon. Treeline temperature 0 \u00b0C. Freezing level 1800 m, snow level 1400 m. Thursday Cloudy with flurries. 0 to 5 cm of new snow. 50-70 km/h southwest ridgetop wind, easing off a bit through the day. Treeline temperature 0 \u00b0C. Freezing level 1800 m, snow level 1500 m.\u2026",
+    "snowpack": "Due to below average snowfall, direct observations are minimal. We expect to find 35 to 55 cm of snow around treeline. Expect to find less than this in wind exposed areas in the alpine. You may find up to a metre of snow in sheltered, leeward features and in cross-loaded gullies. Below treeline, the depth of snow rapidly decreases, with very little snow on the ground below 2000 m.",
+    "weather": "Thursday Night Mostly cloudy with flurries. 0 to 4 cm of new snow. 50 km/h southwest ridgetop wind, easing off a little by the morning. Treeline temperature 0 \u00b0C. Freezing level 1800 m, snow level 1400 m. Friday Mostly cloudy with snow. 1 to 10 cm of new snow, with the highest amounts being east of Quesnel, Williams Lake, and Clearwater. 30 km/h west ridgetop wind south of Clearwater, 50 km/h to the north. Treeline\u2026",
     "avalanche": "No avalanches have been reported in November, but human-triggered avalanches are possible where you see a smooth snow surface instead of obvious rough ground under a bit of snow."
    },
    "resort": {
-    "new24": 1,
-    "new48": 9,
-    "new7d": 9,
-    "base": 35,
+    "new24": 4,
+    "new48": 13,
+    "new7d": 13,
+    "base": 37,
     "status": "ok"
    },
    "agreement": "close",
-   "agreement_note": "7-day: resort 9 cm new vs station +9 cm depth"
+   "agreement_note": "7-day: resort 13 cm new vs station +12 cm depth"
   },
   {
    "id": "fernie",
@@ -706,15 +713,15 @@
      "name": "Morrissey Ridge",
      "elev": 1860.0,
      "dist_km": 8,
-     "depth": 13,
-     "swe": 30,
-     "swe_d24": 2,
-     "swe_d7": 6,
-     "time": "2026-11-25T22:00:00+00:00",
-     "temp": -1.0,
+     "depth": 18,
+     "swe": 42,
+     "swe_d24": 12,
+     "swe_d7": 18,
+     "time": "2026-11-26T22:00:00+00:00",
+     "temp": -1.2,
      "age_h": 1.2,
-     "d24": 0,
-     "d7": 2,
+     "d24": 5,
+     "d7": 8,
      "daily": {
       "2026-10-01": 0,
       "2026-10-02": 0,
@@ -771,7 +778,8 @@
       "2026-11-22": 12,
       "2026-11-23": 14,
       "2026-11-24": 13,
-      "2026-11-25": 13
+      "2026-11-25": 13,
+      "2026-11-26": 18
      }
     },
     {
@@ -779,15 +787,15 @@
      "name": "Moyie Mountain",
      "elev": 1835.0,
      "dist_km": 55,
-     "depth": 11,
-     "swe": 23,
-     "swe_d24": 2,
-     "swe_d7": 9,
-     "time": "2026-11-25T21:00:00+00:00",
-     "temp": -1.6,
+     "depth": 14,
+     "swe": 29,
+     "swe_d24": 6,
+     "swe_d7": 15,
+     "time": "2026-11-26T21:00:00+00:00",
+     "temp": -1.7,
      "age_h": 2.2,
-     "d24": 2,
-     "d7": 5,
+     "d24": 3,
+     "d7": 9,
      "daily": {
       "2026-10-01": 0,
       "2026-10-02": 0,
@@ -844,7 +852,8 @@
       "2026-11-22": 10,
       "2026-11-23": 10,
       "2026-11-24": 9,
-      "2026-11-25": 11
+      "2026-11-25": 12,
+      "2026-11-26": 14
      }
     }
    ],
@@ -852,29 +861,29 @@
     "status": "ok",
     "region": "Akamina-Bull-Crowsnest North-Crowsnest South-Elkford East-Elkford West-Flathead-Lizard",
     "region_note": null,
-    "url": "https://avalanche.ca/forecasts/9ea3daf5-fdcc-467a-9198-e3be9b521e04_22f8effd952a627fef02a5c8a7d562795ca1143e8c0a28fa68d13ede54a73d16",
+    "url": "https://avalanche.ca/forecasts/fc77960f-f703-40a9-b086-b336b68bc99a_22f8effd952a627fef02a5c8a7d562795ca1143e8c0a28fa68d13ede54a73d16",
     "danger": {
      "alp": "1 - Low",
      "tln": "1 - Low",
      "btl": "1 - Low"
     },
     "no_rating": false,
-    "highlights": "Expect shallow snow cover with early-season obstacles hidden just beneath the surface. Outside of isolated steep, loaded features, there isn't enough snow to produce avalanches.",
-    "snowpack": "New snow on Thursday will accumulate on a shallow, early-season snowpack at higher elevations. At treeline and above, the snowpack averages 20 to 40 cm, with deeper wind-loaded deposits in lee terrain features, like gullies, rollovers, and near ridgecrests. Near the base of the snowpack, a widespread melt-freeze crust is present, with faceted snow likely developing between the crust and the ground. Thin snow\u2026",
-    "weather": "Wednesday Night Cloudy. 60 km/h southwest ridgetop wind. Treeline temperature -2 \u00b0C. Thursday Cloudy with snow. 5 to 15 cm of new snow. 70 km/h southwest ridgetop wind. Treeline temperature -2 \u00b0C. Snow level 1200 m. Friday Mostly cloudy with snow. 2 to 8 cm of new snow. 50 km/h west ridgetop wind. Treeline temperature -4 \u00b0C. Snow level 1000 m. Saturday Mostly sunny. 30 km/h northwest ridgetop wind. Treeline\u2026",
+    "highlights": "The snowpack remains too shallow to avalanche in most areas. Avalanche hazard is isolated to steep, smooth slopes at higher elevations.",
+    "snowpack": "The snowpack remains shallow with various early-season hazards. At treeline and above, the snowpack averages 20 to 40 cm, with deeper wind-loaded deposits in lee terrain features, like gullies, rollovers, and near ridgecrests. Near the base of the snowpack, a widespread melt-freeze crust is present, with faceted snow likely developing between the crust and the ground. Thin snow coverage and ground roughness make\u2026",
+    "weather": "Thursday Night Cloudy with snow. 1 to 5 cm of new snow. 60 km/h west ridgetop wind. Treeline temperature -2 \u00b0C. Snow level 1300 m. Friday Mostly cloudy. 50 km/h west ridgetop wind. Treeline temperature -4 \u00b0C. Saturday Mostly sunny. 30 km/h northwest ridgetop wind. Treeline temperature -6 \u00b0C. Sunday Mix of sun and clouds. 30 km/h west ridgetop wind. Treeline temperature -5 \u00b0C. More details can be found in the\u2026",
     "avalanche": "No recent avalanches have been reported, likely because the shallow snowpack remains largely below the threshold to slide. As new snow continues to accumulate, expect more terrain to become deep enough to avalanche."
    },
    "resort": {
-    "new24": 2,
-    "new48": 2,
-    "new7d": 15,
-    "base": 11,
-    "season": 66,
-    "updated": "Nov 25, 2026",
+    "new24": 3,
+    "new48": 5,
+    "new7d": 18,
+    "base": 13,
+    "season": 69,
+    "updated": "Nov 26, 2026",
     "status": "ok"
    },
-   "agreement": "resort_higher",
-   "agreement_note": "7-day: resort 15 cm new vs station +2 cm depth"
+   "agreement": "close",
+   "agreement_note": "7-day: resort 18 cm new vs station +8 cm depth"
   }
  ],
  "health": [
@@ -896,7 +905,7 @@
   {
    "source": "Avalanche Canada forecasts",
    "ok": true,
-   "note": "22 products"
+   "note": "23 products"
   },
   {
    "source": "Revelstoke resort page",
